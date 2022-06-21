@@ -16,7 +16,7 @@ mind can be tricky. Using the Covid Dashboard, users can easily identify which a
 [states_lat_long](https://developers.google.com/public-data/docs/canonical/states_csv)
 
 ## Data Cleaning/Manipulation & Conversion
-The datasets didn't require much cleaning; however, Pandas was used for data manipulation and conversion. 
+Pandas was used for data cleaning/manipulation and conversion. 
 
 Certain columns were selected from the [covid_cases](Resources/covid_cases.csv) and [covid_vaccine](Resources/covid_vaccine.csv) files to be placed into 2 separate dataframes. Then those 2 dataframes were merged with the [states_lat_long](Resources/states_lat_long.csv) file on the "State/Territory" column and saved as csv files.
 
