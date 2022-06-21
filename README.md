@@ -20,4 +20,11 @@ Pandas was used for data cleaning/ manipulation and conversion.
 
 Certain columns were selected from the [covid_cases](Resources/covid_cases.csv) and [covid_vaccine](Resources/covid_vaccine.csv) files to be placed into 2 separate dataframes. Then those 2 dataframes were merged with the [states_lat_long](Resources/states_lat_long.csv) file on the "State/Territory" column and saved as csv files.
 
-The [WHO_Covid19_Global_Data](Resources/WHO_Covid19_Global_Data.csv) file was extracted into a dataframe and the data was saved as a html file after setting the "name" column as the index.
+cleaned & merged covid_case dataframe:
+
+
+cleaned & merged covid_vaccine dataframe:
+
+
+The [WHO_Covid19_Global_Data](Resources/WHO_COVID19_Global_Data.csv) file was extracted into a dataframe and the data was saved as a html file after setting the "name" column as the index.
+
