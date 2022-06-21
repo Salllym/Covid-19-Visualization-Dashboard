@@ -9,8 +9,11 @@ mind can be tricky. Using the Covid Dashboard, users can easily identify which a
 
 ## Datasets
 [WHO_Covid19_Global_Data](https://covid19.who.int/data)
+
 [covid_cases](https://covid.cdc.gov/covid-data-tracker/#cases_casesper100klast7days)
+
 [covid_vaccine](https://covid.cdc.gov/covid-data-tracker/#vaccinations_vacc-total-admin-rate-total)
+
 [states_lat_long](https://developers.google.com/public-data/docs/canonical/states_csv)
 
 
