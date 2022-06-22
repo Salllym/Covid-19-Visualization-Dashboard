@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Covid19-Vaccine</title>
+    <title>Covid19-Deaths</title>
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
@@ -32,24 +32,28 @@
             </li>
           </ul>
         </div>            
-      </nav>       
+      </nav>  
   
   </div> 
 <!-- Content Section-->
 <div class="container">
   <div class="box">
-    <h3 class="title">  Covid19 Vaccinations in the United States
+    <h3 class="title">  Cases & Deaths in the United States
     </h3>
     <hr>
     <p>
       <div class="dropdown">
         <button onclick="myFunction()" class="dropbtn">View</button>
         <div id="myDropdown" class="dropdown-content">
-          <a href="Vaccine-Administered.html">Total Doses Administered</a>
-          <a href="Vaccine-Distributed.html">Total Doses Distributed</a>
+          <a href="Cases.html">Cases</a>
+          <a href="Deaths.html">Deaths</a>
         </div>
       </div> 
       
+      <div class="button text-right">
+        <p><a class="btn btn-primary btn-small" href="..\Data_Conversion\Global_Covid19_Data.html"
+            role="button">Global Counts of Cases & Deaths</a></p>
+    </div>
        
     </p>
     <br>
