@@ -45,26 +45,6 @@
    "type": "Feature",
    "geometry": {
       "type": "Point",
-      "coordinates":  [ 170.1322,14.271 ]
-   },
-   "properties": {
-   "State/Territory":"American Samoa",
-   "Total Cases":6270,
-   "Cases in Last 7 Days":78,
-   "Case Rate per 100000":13230,
-   "Total Deaths":31,
-   "Deaths in Last 7 Days":0,
-   "Death Rate per 100000":65,
-   "7-Day Cases Rate per 100000":164.6,
-   "7-Day Death Rate per 100000":0,
-   "New Cases":0,
-   "New Deaths":0
-   }
- },
- {
-   "type": "Feature",
-   "geometry": {
-      "type": "Point",
       "coordinates":  [ -111.093731,34.048928 ]
    },
    "properties": {
@@ -185,26 +165,6 @@
    "type": "Feature",
    "geometry": {
       "type": "Point",
-      "coordinates":  [ -77.033418,38.905985 ]
-   },
-   "properties": {
-   "State/Territory":"District of Columbia",
-   "Total Cases":153661,
-   "Cases in Last 7 Days":1409,
-   "Case Rate per 100000":21773,
-   "Total Deaths":1348,
-   "Deaths in Last 7 Days":0,
-   "Death Rate per 100000":191,
-   "7-Day Cases Rate per 100000":199.6,
-   "7-Day Death Rate per 100000":0,
-   "New Cases":225,
-   "New Deaths":0
-   }
- },
- {
-   "type": "Feature",
-   "geometry": {
-      "type": "Point",
       "coordinates":  [ -81.515754,27.664827 ]
    },
    "properties": {
@@ -239,26 +199,6 @@
    "7-Day Death Rate per 100000":0.7,
    "New Cases":19315,
    "New Deaths":70
-   }
- },
- {
-   "type": "Feature",
-   "geometry": {
-      "type": "Point",
-      "coordinates":  [ 144.7937,13.4443 ]
-   },
-   "properties": {
-   "State/Territory":"Guam",
-   "Total Cases":50485,
-   "Cases in Last 7 Days":706,
-   "Case Rate per 100000":29963,
-   "Total Deaths":370,
-   "Deaths in Last 7 Days":3,
-   "Death Rate per 100000":219,
-   "7-Day Cases Rate per 100000":419,
-   "7-Day Death Rate per 100000":1.8,
-   "New Cases":121,
-   "New Deaths":0
    }
  },
  {
@@ -685,30 +625,10 @@
    "type": "Feature",
    "geometry": {
       "type": "Point",
-      "coordinates":  [ 74.006,40.7128 ]
-   },
-   "properties": {
-   "State/Territory":"New York City",
-   "Total Cases":2551776,
-   "Cases in Last 7 Days":20916,
-   "Case Rate per 100000":30383,
-   "Total Deaths":40625,
-   "Deaths in Last 7 Days":111,
-   "Death Rate per 100000":483,
-   "7-Day Cases Rate per 100000":249,
-   "7-Day Death Rate per 100000":1.3,
-   "New Cases":3460,
-   "New Deaths":24
-   }
- },
- {
-   "type": "Feature",
-   "geometry": {
-      "type": "Point",
       "coordinates":  [ -74.217933,43.299428 ]
    },
    "properties": {
-   "State/Territory":"New York*",
+   "State/Territory":"New York",
    "Total Cases":2969161,
    "Cases in Last 7 Days":15394,
    "Case Rate per 100000":26858,
@@ -759,26 +679,6 @@
    "7-Day Death Rate per 100000":0.4,
    "New Cases":759,
    "New Deaths":2
-   }
- },
- {
-   "type": "Feature",
-   "geometry": {
-      "type": "Point",
-      "coordinates":  [ 145.6739,15.0979 ]
-   },
-   "properties": {
-   "State/Territory":"Northern Mariana Islands",
-   "Total Cases":11482,
-   "Cases in Last 7 Days":79,
-   "Case Rate per 100000":22144,
-   "Total Deaths":34,
-   "Deaths in Last 7 Days":0,
-   "Death Rate per 100000":59,
-   "7-Day Cases Rate per 100000":152.4,
-   "7-Day Death Rate per 100000":0,
-   "New Cases":0,
-   "New Deaths":0
    }
  },
  {
@@ -845,26 +745,6 @@
    "type": "Feature",
    "geometry": {
       "type": "Point",
-      "coordinates":  [ 134.5825,7.515 ]
-   },
-   "properties": {
-   "State/Territory":"Palau",
-   "Total Cases":5165,
-   "Cases in Last 7 Days":39,
-   "Case Rate per 100000":23988,
-   "Total Deaths":6,
-   "Deaths in Last 7 Days":0,
-   "Death Rate per 100000":27,
-   "7-Day Cases Rate per 100000":181.1,
-   "7-Day Death Rate per 100000":0,
-   "New Cases":0,
-   "New Deaths":0
-   }
- },
- {
-   "type": "Feature",
-   "geometry": {
-      "type": "Point",
       "coordinates":  [ -77.194525,41.203322 ]
    },
    "properties": {
@@ -899,26 +779,6 @@
    "7-Day Death Rate per 100000":1.3,
    "New Cases":4433,
    "New Deaths":11
-   }
- },
- {
-   "type": "Feature",
-   "geometry": {
-      "type": "Point",
-      "coordinates":  [ 171.1845,7.1315 ]
-   },
-   "properties": {
-   "State/Territory":"Republic of Marshall Islands",
-   "Total Cases":18,
-   "Cases in Last 7 Days":0,
-   "Case Rate per 100000":23,
-   "Total Deaths":0,
-   "Deaths in Last 7 Days":0,
-   "Death Rate per 100000":0,
-   "7-Day Cases Rate per 100000":0,
-   "7-Day Death Rate per 100000":0,
-   "New Cases":0,
-   "New Deaths":0
    }
  },
  {
@@ -1025,26 +885,6 @@
    "type": "Feature",
    "geometry": {
       "type": "Point",
-      "coordinates":  [ 95.7129,37.0902 ]
-   },
-   "properties": {
-   "State/Territory":"United States of America",
-   "Total Cases":85825048,
-   "Cases in Last 7 Days":719256,
-   "Case Rate per 100000":25851,
-   "Total Deaths":1007960,
-   "Deaths in Last 7 Days":1871,
-   "Death Rate per 100000":303,
-   "7-Day Cases Rate per 100000":216.7,
-   "7-Day Death Rate per 100000":0.6,
-   "New Cases":143007,
-   "New Deaths":526
-   }
- },
- {
-   "type": "Feature",
-   "geometry": {
-      "type": "Point",
       "coordinates":  [ -111.093731,39.32098 ]
    },
    "properties": {
@@ -1079,26 +919,6 @@
    "7-Day Death Rate per 100000":1,
    "New Cases":110,
    "New Deaths":6
-   }
- },
- {
-   "type": "Feature",
-   "geometry": {
-      "type": "Point",
-      "coordinates":  [ 64.8963,18.3358 ]
-   },
-   "properties": {
-   "State/Territory":"Virgin Islands",
-   "Total Cases":20562,
-   "Cases in Last 7 Days":230,
-   "Case Rate per 100000":19345,
-   "Total Deaths":117,
-   "Deaths in Last 7 Days":2,
-   "Death Rate per 100000":110,
-   "7-Day Cases Rate per 100000":216.4,
-   "7-Day Death Rate per 100000":1.9,
-   "New Cases":46,
-   "New Deaths":2
    }
  },
  {
