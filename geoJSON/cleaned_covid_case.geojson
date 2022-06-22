@@ -1,0 +1,1025 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -86.902298,32.318231 ]
+    },
+    "properties": {
+    "State/Territory":"Alabama",
+    "Total Cases":1333137,
+    "Cases in Last 7 Days":8836,
+    "Case Rate per 100000":27189,
+    "Total Deaths":19696,
+    "Deaths in Last 7 Days":1,
+    "Death Rate per 100000":401,
+    "7-Day Cases Rate per 100000":180.2,
+    "7-Day Death Rate per 100000":0,
+    "New Cases":1463,
+    "New Deaths":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -154.493062,63.588753 ]
+    },
+    "properties": {
+    "State/Territory":"Alaska",
+    "Total Cases":257263,
+    "Cases in Last 7 Days":1838,
+    "Case Rate per 100000":35167,
+    "Total Deaths":1252,
+    "Deaths in Last 7 Days":0,
+    "Death Rate per 100000":171,
+    "7-Day Cases Rate per 100000":251.2,
+    "7-Day Death Rate per 100000":0,
+    "New Cases":1838,
+    "New Deaths":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -111.093731,34.048928 ]
+    },
+    "properties": {
+    "State/Territory":"Arizona",
+    "Total Cases":2093680,
+    "Cases in Last 7 Days":16334,
+    "Case Rate per 100000":28764,
+    "Total Deaths":30400,
+    "Deaths in Last 7 Days":28,
+    "Death Rate per 100000":417,
+    "7-Day Cases Rate per 100000":224.4,
+    "7-Day Death Rate per 100000":0.4,
+    "New Cases":16334,
+    "New Deaths":28
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -91.831833,35.20105 ]
+    },
+    "properties": {
+    "State/Territory":"Arkansas",
+    "Total Cases":852229,
+    "Cases in Last 7 Days":4418,
+    "Case Rate per 100000":28240,
+    "Total Deaths":11528,
+    "Deaths in Last 7 Days":17,
+    "Death Rate per 100000":382,
+    "7-Day Cases Rate per 100000":146.4,
+    "7-Day Death Rate per 100000":0.6,
+    "New Cases":954,
+    "New Deaths":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -119.417932,36.778261 ]
+    },
+    "properties": {
+    "State/Territory":"California",
+    "Total Cases":9839072,
+    "Cases in Last 7 Days":121961,
+    "Case Rate per 100000":24901,
+    "Total Deaths":91107,
+    "Deaths in Last 7 Days":215,
+    "Death Rate per 100000":230,
+    "7-Day Cases Rate per 100000":308.7,
+    "7-Day Death Rate per 100000":0.5,
+    "New Cases":0,
+    "New Deaths":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -105.782067,39.550051 ]
+    },
+    "properties": {
+    "State/Territory":"Colorado",
+    "Total Cases":1493940,
+    "Cases in Last 7 Days":15227,
+    "Case Rate per 100000":25942,
+    "Total Deaths":12647,
+    "Deaths in Last 7 Days":48,
+    "Death Rate per 100000":219,
+    "7-Day Cases Rate per 100000":264.4,
+    "7-Day Death Rate per 100000":0.8,
+    "New Cases":1825,
+    "New Deaths":7
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.087749,41.603221 ]
+    },
+    "properties": {
+    "State/Territory":"Connecticut",
+    "Total Cases":819531,
+    "Cases in Last 7 Days":4546,
+    "Case Rate per 100000":22986,
+    "Total Deaths":11015,
+    "Deaths in Last 7 Days":16,
+    "Death Rate per 100000":308,
+    "7-Day Cases Rate per 100000":127.5,
+    "7-Day Death Rate per 100000":0.4,
+    "New Cases":813,
+    "New Deaths":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.52767,38.910832 ]
+    },
+    "properties": {
+    "State/Territory":"Delaware",
+    "Total Cases":281347,
+    "Cases in Last 7 Days":1887,
+    "Case Rate per 100000":28893,
+    "Total Deaths":2970,
+    "Deaths in Last 7 Days":0,
+    "Death Rate per 100000":305,
+    "7-Day Cases Rate per 100000":193.8,
+    "7-Day Death Rate per 100000":0,
+    "New Cases":1095,
+    "New Deaths":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -77.033418,38.905985 ]
+    },
+    "properties": {
+    "State/Territory":"District of Columbia",
+    "Total Cases":153661,
+    "Cases in Last 7 Days":1409,
+    "Case Rate per 100000":21773,
+    "Total Deaths":1348,
+    "Deaths in Last 7 Days":0,
+    "Death Rate per 100000":191,
+    "7-Day Cases Rate per 100000":199.6,
+    "7-Day Death Rate per 100000":0,
+    "New Cases":225,
+    "New Deaths":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -81.515754,27.664827 ]
+    },
+    "properties": {
+    "State/Territory":"Florida",
+    "Total Cases":6333646,
+    "Cases in Last 7 Days":74234,
+    "Case Rate per 100000":29489,
+    "Total Deaths":75087,
+    "Deaths in Last 7 Days":27,
+    "Death Rate per 100000":349,
+    "7-Day Cases Rate per 100000":345.6,
+    "7-Day Death Rate per 100000":0.1,
+    "New Cases":12763,
+    "New Deaths":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -82.907123,32.157435 ]
+    },
+    "properties": {
+    "State/Territory":"Georgia",
+    "Total Cases":2608172,
+    "Cases in Last 7 Days":19315,
+    "Case Rate per 100000":24565,
+    "Total Deaths":38360,
+    "Deaths in Last 7 Days":70,
+    "Death Rate per 100000":361,
+    "7-Day Cases Rate per 100000":181.9,
+    "7-Day Death Rate per 100000":0.7,
+    "New Cases":19315,
+    "New Deaths":70
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -155.665857,19.898682 ]
+    },
+    "properties": {
+    "State/Territory":"Hawaii",
+    "Total Cases":290652,
+    "Cases in Last 7 Days":7078,
+    "Case Rate per 100000":20528,
+    "Total Deaths":1462,
+    "Deaths in Last 7 Days":9,
+    "Death Rate per 100000":103,
+    "7-Day Cases Rate per 100000":499.9,
+    "7-Day Death Rate per 100000":0.6,
+    "New Cases":7078,
+    "New Deaths":9
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -114.742041,44.068202 ]
+    },
+    "properties": {
+    "State/Territory":"Idaho",
+    "Total Cases":457026,
+    "Cases in Last 7 Days":2449,
+    "Case Rate per 100000":25574,
+    "Total Deaths":4954,
+    "Deaths in Last 7 Days":8,
+    "Death Rate per 100000":277,
+    "7-Day Cases Rate per 100000":137,
+    "7-Day Death Rate per 100000":0.4,
+    "New Cases":894,
+    "New Deaths":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.398528,40.633125 ]
+    },
+    "properties": {
+    "State/Territory":"Illinois",
+    "Total Cases":3371262,
+    "Cases in Last 7 Days":28720,
+    "Case Rate per 100000":26604,
+    "Total Deaths":38368,
+    "Deaths in Last 7 Days":86,
+    "Death Rate per 100000":302,
+    "7-Day Cases Rate per 100000":226.6,
+    "7-Day Death Rate per 100000":0.7,
+    "New Cases":5737,
+    "New Deaths":24
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -85.602364,40.551217 ]
+    },
+    "properties": {
+    "State/Territory":"Indiana",
+    "Total Cases":1753119,
+    "Cases in Last 7 Days":7999,
+    "Case Rate per 100000":26041,
+    "Total Deaths":23804,
+    "Deaths in Last 7 Days":34,
+    "Death Rate per 100000":353,
+    "7-Day Cases Rate per 100000":118.8,
+    "7-Day Death Rate per 100000":0.5,
+    "New Cases":2146,
+    "New Deaths":6
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -93.097702,41.878003 ]
+    },
+    "properties": {
+    "State/Territory":"Iowa",
+    "Total Cases":788646,
+    "Cases in Last 7 Days":3959,
+    "Case Rate per 100000":24996,
+    "Total Deaths":9615,
+    "Deaths in Last 7 Days":0,
+    "Death Rate per 100000":304,
+    "7-Day Cases Rate per 100000":125.5,
+    "7-Day Death Rate per 100000":0,
+    "New Cases":357,
+    "New Deaths":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -98.484246,39.011902 ]
+    },
+    "properties": {
+    "State/Territory":"Kansas",
+    "Total Cases":797782,
+    "Cases in Last 7 Days":3949,
+    "Case Rate per 100000":27384,
+    "Total Deaths":8943,
+    "Deaths in Last 7 Days":0,
+    "Death Rate per 100000":306,
+    "7-Day Cases Rate per 100000":135.6,
+    "7-Day Death Rate per 100000":0,
+    "New Cases":3949,
+    "New Deaths":-3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.270018,37.839333 ]
+    },
+    "properties": {
+    "State/Territory":"Kentucky",
+    "Total Cases":1382483,
+    "Cases in Last 7 Days":11933,
+    "Case Rate per 100000":30944,
+    "Total Deaths":16086,
+    "Deaths in Last 7 Days":58,
+    "Death Rate per 100000":360,
+    "7-Day Cases Rate per 100000":267.1,
+    "7-Day Death Rate per 100000":1.3,
+    "New Cases":2036,
+    "New Deaths":8
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -92.145024,31.244823 ]
+    },
+    "properties": {
+    "State/Territory":"Louisiana",
+    "Total Cases":1209190,
+    "Cases in Last 7 Days":8185,
+    "Case Rate per 100000":26011,
+    "Total Deaths":17369,
+    "Deaths in Last 7 Days":18,
+    "Death Rate per 100000":373,
+    "7-Day Cases Rate per 100000":176.1,
+    "7-Day Death Rate per 100000":0.4,
+    "New Cases":1255,
+    "New Deaths":7
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -69.445469,45.253783 ]
+    },
+    "properties": {
+    "State/Territory":"Maine",
+    "Total Cases":267210,
+    "Cases in Last 7 Days":1608,
+    "Case Rate per 100000":19879,
+    "Total Deaths":2407,
+    "Deaths in Last 7 Days":6,
+    "Death Rate per 100000":179,
+    "7-Day Cases Rate per 100000":119.6,
+    "7-Day Death Rate per 100000":0.4,
+    "New Cases":240,
+    "New Deaths":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -76.641271,39.045755 ]
+    },
+    "properties": {
+    "State/Territory":"Maryland",
+    "Total Cases":1115482,
+    "Cases in Last 7 Days":9642,
+    "Case Rate per 100000":18451,
+    "Total Deaths":14711,
+    "Deaths in Last 7 Days":51,
+    "Death Rate per 100000":243,
+    "7-Day Cases Rate per 100000":159.5,
+    "7-Day Death Rate per 100000":0.8,
+    "New Cases":1633,
+    "New Deaths":9
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.382437,42.407211 ]
+    },
+    "properties": {
+    "State/Territory":"Massachusetts",
+    "Total Cases":1902067,
+    "Cases in Last 7 Days":12519,
+    "Case Rate per 100000":27596,
+    "Total Deaths":20800,
+    "Deaths in Last 7 Days":91,
+    "Death Rate per 100000":301,
+    "7-Day Cases Rate per 100000":181.6,
+    "7-Day Death Rate per 100000":1.3,
+    "New Cases":1691,
+    "New Deaths":11
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -85.602364,44.314844 ]
+    },
+    "properties": {
+    "State/Territory":"Michigan",
+    "Total Cases":2581397,
+    "Cases in Last 7 Days":15578,
+    "Case Rate per 100000":25848,
+    "Total Deaths":36675,
+    "Deaths in Last 7 Days":137,
+    "Death Rate per 100000":367,
+    "7-Day Cases Rate per 100000":156,
+    "7-Day Death Rate per 100000":1.4,
+    "New Cases":15578,
+    "New Deaths":137
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -94.6859,46.729553 ]
+    },
+    "properties": {
+    "State/Territory":"Minnesota",
+    "Total Cases":1533884,
+    "Cases in Last 7 Days":10577,
+    "Case Rate per 100000":27198,
+    "Total Deaths":13047,
+    "Deaths in Last 7 Days":39,
+    "Death Rate per 100000":231,
+    "7-Day Cases Rate per 100000":187.5,
+    "7-Day Death Rate per 100000":0.7,
+    "New Cases":1356,
+    "New Deaths":8
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.398528,32.354668 ]
+    },
+    "properties": {
+    "State/Territory":"Mississippi",
+    "Total Cases":818550,
+    "Cases in Last 7 Days":5200,
+    "Case Rate per 100000":27504,
+    "Total Deaths":12489,
+    "Deaths in Last 7 Days":10,
+    "Death Rate per 100000":419,
+    "7-Day Cases Rate per 100000":174.7,
+    "7-Day Death Rate per 100000":0.3,
+    "New Cases":1100,
+    "New Deaths":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -91.831833,37.964253 ]
+    },
+    "properties": {
+    "State/Territory":"Missouri",
+    "Total Cases":1473752,
+    "Cases in Last 7 Days":10802,
+    "Case Rate per 100000":24012,
+    "Total Deaths":20643,
+    "Deaths in Last 7 Days":15,
+    "Death Rate per 100000":336,
+    "7-Day Cases Rate per 100000":176,
+    "7-Day Death Rate per 100000":0.2,
+    "New Cases":0,
+    "New Deaths":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -110.362566,46.879682 ]
+    },
+    "properties": {
+    "State/Territory":"Montana",
+    "Total Cases":280965,
+    "Cases in Last 7 Days":1972,
+    "Case Rate per 100000":26288,
+    "Total Deaths":3434,
+    "Deaths in Last 7 Days":11,
+    "Death Rate per 100000":321,
+    "7-Day Cases Rate per 100000":184.5,
+    "7-Day Death Rate per 100000":1,
+    "New Cases":0,
+    "New Deaths":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -99.901813,41.492537 ]
+    },
+    "properties": {
+    "State/Territory":"Nebraska",
+    "Total Cases":493553,
+    "Cases in Last 7 Days":2624,
+    "Case Rate per 100000":25514,
+    "Total Deaths":4330,
+    "Deaths in Last 7 Days":7,
+    "Death Rate per 100000":223,
+    "7-Day Cases Rate per 100000":135.6,
+    "7-Day Death Rate per 100000":0.4,
+    "New Cases":680,
+    "New Deaths":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -116.419389,38.80261 ]
+    },
+    "properties": {
+    "State/Territory":"Nevada",
+    "Total Cases":758379,
+    "Cases in Last 7 Days":9276,
+    "Case Rate per 100000":24621,
+    "Total Deaths":10967,
+    "Deaths in Last 7 Days":32,
+    "Death Rate per 100000":356,
+    "7-Day Cases Rate per 100000":301.2,
+    "7-Day Death Rate per 100000":1,
+    "New Cases":882,
+    "New Deaths":13
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.572395,43.193852 ]
+    },
+    "properties": {
+    "State/Territory":"New Hampshire",
+    "Total Cases":329230,
+    "Cases in Last 7 Days":1416,
+    "Case Rate per 100000":24213,
+    "Total Deaths":2565,
+    "Deaths in Last 7 Days":10,
+    "Death Rate per 100000":188,
+    "7-Day Cases Rate per 100000":104.1,
+    "7-Day Death Rate per 100000":0.7,
+    "New Cases":222,
+    "New Deaths":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -74.405661,40.058324 ]
+    },
+    "properties": {
+    "State/Territory":"New Jersey",
+    "Total Cases":2444707,
+    "Cases in Last 7 Days":20101,
+    "Case Rate per 100000":27524,
+    "Total Deaths":33896,
+    "Deaths in Last 7 Days":85,
+    "Death Rate per 100000":381,
+    "7-Day Cases Rate per 100000":226.3,
+    "7-Day Death Rate per 100000":1,
+    "New Cases":3070,
+    "New Deaths":17
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -105.032363,34.97273 ]
+    },
+    "properties": {
+    "State/Territory":"New Mexico",
+    "Total Cases":549246,
+    "Cases in Last 7 Days":6500,
+    "Case Rate per 100000":26194,
+    "Total Deaths":7869,
+    "Deaths in Last 7 Days":19,
+    "Death Rate per 100000":375,
+    "7-Day Cases Rate per 100000":310,
+    "7-Day Death Rate per 100000":0.9,
+    "New Cases":1127,
+    "New Deaths":4
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -79.0193,35.759573 ]
+    },
+    "properties": {
+    "State/Territory":"North Carolina",
+    "Total Cases":2826154,
+    "Cases in Last 7 Days":19701,
+    "Case Rate per 100000":26946,
+    "Total Deaths":25143,
+    "Deaths in Last 7 Days":19,
+    "Death Rate per 100000":239,
+    "7-Day Cases Rate per 100000":187.8,
+    "7-Day Death Rate per 100000":0.2,
+    "New Cases":0,
+    "New Deaths":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -101.002012,47.551493 ]
+    },
+    "properties": {
+    "State/Territory":"North Dakota",
+    "Total Cases":247303,
+    "Cases in Last 7 Days":1201,
+    "Case Rate per 100000":32452,
+    "Total Deaths":2287,
+    "Deaths in Last 7 Days":3,
+    "Death Rate per 100000":300,
+    "7-Day Cases Rate per 100000":157.6,
+    "7-Day Death Rate per 100000":0.4,
+    "New Cases":759,
+    "New Deaths":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -82.907123,40.417287 ]
+    },
+    "properties": {
+    "State/Territory":"Ohio",
+    "Total Cases":2798900,
+    "Cases in Last 7 Days":18247,
+    "Case Rate per 100000":23944,
+    "Total Deaths":38657,
+    "Deaths in Last 7 Days":0,
+    "Death Rate per 100000":330,
+    "7-Day Cases Rate per 100000":156.1,
+    "7-Day Death Rate per 100000":0,
+    "New Cases":0,
+    "New Deaths":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -97.092877,35.007752 ]
+    },
+    "properties": {
+    "State/Territory":"Oklahoma",
+    "Total Cases":1061792,
+    "Cases in Last 7 Days":5014,
+    "Case Rate per 100000":26834,
+    "Total Deaths":14472,
+    "Deaths in Last 7 Days":17,
+    "Death Rate per 100000":365,
+    "7-Day Cases Rate per 100000":126.7,
+    "7-Day Death Rate per 100000":0.4,
+    "New Cases":1915,
+    "New Deaths":17
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -120.554201,43.804133 ]
+    },
+    "properties": {
+    "State/Territory":"Oregon",
+    "Total Cases":788128,
+    "Cases in Last 7 Days":10428,
+    "Case Rate per 100000":18686,
+    "Total Deaths":7721,
+    "Deaths in Last 7 Days":38,
+    "Death Rate per 100000":183,
+    "7-Day Cases Rate per 100000":247.2,
+    "7-Day Death Rate per 100000":0.9,
+    "New Cases":1519,
+    "New Deaths":13
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -77.194525,41.203322 ]
+    },
+    "properties": {
+    "State/Territory":"Pennsylvania",
+    "Total Cases":2972356,
+    "Cases in Last 7 Days":17606,
+    "Case Rate per 100000":23218,
+    "Total Deaths":45552,
+    "Deaths in Last 7 Days":139,
+    "Death Rate per 100000":355,
+    "7-Day Cases Rate per 100000":137.5,
+    "7-Day Death Rate per 100000":1.1,
+    "New Cases":2605,
+    "New Deaths":29
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -66.590149,18.220833 ]
+    },
+    "properties": {
+    "State/Territory":"Puerto Rico",
+    "Total Cases":723398,
+    "Cases in Last 7 Days":24261,
+    "Case Rate per 100000":22651,
+    "Total Deaths":4460,
+    "Deaths in Last 7 Days":40,
+    "Death Rate per 100000":139,
+    "7-Day Cases Rate per 100000":759.7,
+    "7-Day Death Rate per 100000":1.3,
+    "New Cases":4433,
+    "New Deaths":11
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.477429,41.580095 ]
+    },
+    "properties": {
+    "State/Territory":"Rhode Island",
+    "Total Cases":379142,
+    "Cases in Last 7 Days":2145,
+    "Case Rate per 100000":35790,
+    "Total Deaths":3595,
+    "Deaths in Last 7 Days":11,
+    "Death Rate per 100000":339,
+    "7-Day Cases Rate per 100000":202.5,
+    "7-Day Death Rate per 100000":1,
+    "New Cases":366,
+    "New Deaths":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -81.163725,33.836081 ]
+    },
+    "properties": {
+    "State/Territory":"South Carolina",
+    "Total Cases":1524771,
+    "Cases in Last 7 Days":7662,
+    "Case Rate per 100000":29615,
+    "Total Deaths":17995,
+    "Deaths in Last 7 Days":24,
+    "Death Rate per 100000":349,
+    "7-Day Cases Rate per 100000":148.8,
+    "7-Day Death Rate per 100000":0.5,
+    "New Cases":0,
+    "New Deaths":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -99.901813,43.969515 ]
+    },
+    "properties": {
+    "State/Territory":"South Dakota",
+    "Total Cases":242298,
+    "Cases in Last 7 Days":972,
+    "Case Rate per 100000":27389,
+    "Total Deaths":2931,
+    "Deaths in Last 7 Days":3,
+    "Death Rate per 100000":331,
+    "7-Day Cases Rate per 100000":109.9,
+    "7-Day Death Rate per 100000":0.3,
+    "New Cases":972,
+    "New Deaths":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -86.580447,35.517491 ]
+    },
+    "properties": {
+    "State/Territory":"Tennessee",
+    "Total Cases":2091206,
+    "Cases in Last 7 Days":12863,
+    "Case Rate per 100000":30622,
+    "Total Deaths":26555,
+    "Deaths in Last 7 Days":47,
+    "Death Rate per 100000":388,
+    "7-Day Cases Rate per 100000":188.4,
+    "7-Day Death Rate per 100000":0.7,
+    "New Cases":2496,
+    "New Deaths":5
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -99.901813,31.968599 ]
+    },
+    "properties": {
+    "State/Territory":"Texas",
+    "Total Cases":6958529,
+    "Cases in Last 7 Days":48265,
+    "Case Rate per 100000":23998,
+    "Total Deaths":86932,
+    "Deaths in Last 7 Days":56,
+    "Death Rate per 100000":299,
+    "7-Day Cases Rate per 100000":166.5,
+    "7-Day Death Rate per 100000":0.2,
+    "New Cases":6297,
+    "New Deaths":10
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -111.093731,39.32098 ]
+    },
+    "properties": {
+    "State/Territory":"Utah",
+    "Total Cases":962209,
+    "Cases in Last 7 Days":7502,
+    "Case Rate per 100000":30013,
+    "Total Deaths":4793,
+    "Deaths in Last 7 Days":12,
+    "Death Rate per 100000":149,
+    "7-Day Cases Rate per 100000":234,
+    "7-Day Death Rate per 100000":0.4,
+    "New Cases":0,
+    "New Deaths":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -72.577841,44.558803 ]
+    },
+    "properties": {
+    "State/Territory":"Vermont",
+    "Total Cases":124994,
+    "Cases in Last 7 Days":704,
+    "Case Rate per 100000":20031,
+    "Total Deaths":647,
+    "Deaths in Last 7 Days":6,
+    "Death Rate per 100000":103,
+    "7-Day Cases Rate per 100000":112.8,
+    "7-Day Death Rate per 100000":1,
+    "New Cases":110,
+    "New Deaths":6
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -78.656894,37.431573 ]
+    },
+    "properties": {
+    "State/Territory":"Virginia",
+    "Total Cases":1832648,
+    "Cases in Last 7 Days":17981,
+    "Case Rate per 100000":21471,
+    "Total Deaths":20450,
+    "Deaths in Last 7 Days":10,
+    "Death Rate per 100000":239,
+    "7-Day Cases Rate per 100000":210.7,
+    "7-Day Death Rate per 100000":0.1,
+    "New Cases":2526,
+    "New Deaths":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -120.740139,47.751074 ]
+    },
+    "properties": {
+    "State/Territory":"Washington",
+    "Total Cases":1622214,
+    "Cases in Last 7 Days":17957,
+    "Case Rate per 100000":21303,
+    "Total Deaths":13084,
+    "Deaths in Last 7 Days":64,
+    "Death Rate per 100000":171,
+    "7-Day Cases Rate per 100000":235.8,
+    "7-Day Death Rate per 100000":0.8,
+    "New Cases":2886,
+    "New Deaths":21
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -80.454903,38.597626 ]
+    },
+    "properties": {
+    "State/Territory":"West Virginia",
+    "Total Cases":524432,
+    "Cases in Last 7 Days":3536,
+    "Case Rate per 100000":29263,
+    "Total Deaths":7016,
+    "Deaths in Last 7 Days":19,
+    "Death Rate per 100000":391,
+    "7-Day Cases Rate per 100000":197.3,
+    "7-Day Death Rate per 100000":1.1,
+    "New Cases":556,
+    "New Deaths":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -88.787868,43.78444 ]
+    },
+    "properties": {
+    "State/Territory":"Wisconsin",
+    "Total Cases":1703197,
+    "Cases in Last 7 Days":11220,
+    "Case Rate per 100000":29252,
+    "Total Deaths":14711,
+    "Deaths in Last 7 Days":40,
+    "Death Rate per 100000":252,
+    "7-Day Cases Rate per 100000":192.7,
+    "7-Day Death Rate per 100000":0.7,
+    "New Cases":1870,
+    "New Deaths":12
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -107.290284,43.075968 ]
+    },
+    "properties": {
+    "State/Territory":"Wyoming",
+    "Total Cases":162160,
+    "Cases in Last 7 Days":2453,
+    "Case Rate per 100000":28019,
+    "Total Deaths":1824,
+    "Deaths in Last 7 Days":0,
+    "Death Rate per 100000":315,
+    "7-Day Cases Rate per 100000":423.8,
+    "7-Day Death Rate per 100000":0,
+    "New Cases":0,
+    "New Deaths":0
+    }
+  }
+]
+}
