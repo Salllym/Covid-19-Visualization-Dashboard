@@ -51,5 +51,6 @@ WHO_Covid19_Global_Data dataframe:
 
 
 ## Webscraping
-The data in the dashboard in the [covid_vaccine](https://covid.cdc.gov/covid-data-tracker/#vaccinations_vacc-total-admin-rate-total) website was webscraped and placed into MongoDB. Flask was used to pull the data from MongoDB into the index.html for display. 
+The data in the dashboards in the [covid_cases](https://covid.cdc.gov/covid-data-tracker/#cases_casesper100klast7days) and [covid_vaccine](https://covid.cdc.gov/covid-data-tracker/#vaccinations_vacc-total-admin-rate-total) websites were webscraped and placed into MongoDB. Flask was used to pull the data from MongoDB into the index.html for display. 
+![dashboard1_data](Images/dashboard1.PNG)
 ![dashboard_data](Images/dashboard.PNG)
