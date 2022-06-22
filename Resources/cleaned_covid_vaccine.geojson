@@ -5,21 +5,6 @@
    "type": "Feature",
    "geometry": {
       "type": "Point",
-      "coordinates":  [ 95.7129,37.0902 ]
-   },
-   "properties": {
-   "State/Territory":"United States",
-   "Total Doses Distributed":758129055,
-   "Doses Distributed per 100K":228346,
-   "Total Doses Administered by State where Administered":592269252,
-   "Doses Administered per 100k by State where Administered":178390,
-   "People Fully Vaccinated by State of Residence":221924152
-   }
- },
- {
-   "type": "Feature",
-   "geometry": {
-      "type": "Point",
       "coordinates":  [ -154.493062,63.588753 ]
    },
    "properties": {
@@ -65,21 +50,6 @@
    "type": "Feature",
    "geometry": {
       "type": "Point",
-      "coordinates":  [ 170.1322,14.271 ]
-   },
-   "properties": {
-   "State/Territory":"American Samoa",
-   "Total Doses Distributed":121410,
-   "Doses Distributed per 100K":256182,
-   "Total Doses Administered by State where Administered":111347,
-   "Doses Administered per 100k by State where Administered":234949,
-   "People Fully Vaccinated by State of Residence":41903
-   }
- },
- {
-   "type": "Feature",
-   "geometry": {
-      "type": "Point",
       "coordinates":  [ -111.093731,34.048928 ]
    },
    "properties": {
@@ -89,21 +59,6 @@
    "Total Doses Administered by State where Administered":12537556,
    "Doses Administered per 100k by State where Administered":172250,
    "People Fully Vaccinated by State of Residence":4532807
-   }
- },
- {
-   "type": "Feature",
-   "geometry": {
-      "type": "Point",
-      "coordinates":  [ 77.0124,38.8943 ]
-   },
-   "properties": {
-   "State/Territory":"Bureau of Prisons",
-   "Total Doses Distributed":356830,
-   "Doses Distributed per 100K":null,
-   "Total Doses Administered by State where Administered":324108,
-   "Doses Administered per 100k by State where Administered":null,
-   "People Fully Vaccinated by State of Residence":136150
    }
  },
  {
@@ -155,21 +110,6 @@
    "type": "Feature",
    "geometry": {
       "type": "Point",
-      "coordinates":  [ -77.033418,38.905985 ]
-   },
-   "properties": {
-   "State/Territory":"District of Columbia",
-   "Total Doses Distributed":1984805,
-   "Doses Distributed per 100K":281234,
-   "Total Doses Administered by State where Administered":1576748,
-   "Doses Administered per 100k by State where Administered":223415,
-   "People Fully Vaccinated by State of Residence":535936
-   }
- },
- {
-   "type": "Feature",
-   "geometry": {
-      "type": "Point",
       "coordinates":  [ -75.52767,38.910832 ]
    },
    "properties": {
@@ -215,21 +155,6 @@
    "type": "Feature",
    "geometry": {
       "type": "Point",
-      "coordinates":  [ 144.7937,13.4443 ]
-   },
-   "properties": {
-   "State/Territory":"Guam",
-   "Total Doses Distributed":326460,
-   "Doses Distributed per 100K":193757,
-   "Total Doses Administered by State where Administered":361088,
-   "Doses Administered per 100k by State where Administered":214310,
-   "People Fully Vaccinated by State of Residence":140593
-   }
- },
- {
-   "type": "Feature",
-   "geometry": {
-      "type": "Point",
       "coordinates":  [ -155.665857,19.898682 ]
    },
    "properties": {
@@ -269,21 +194,6 @@
    "Total Doses Administered by State where Administered":2561404,
    "Doses Administered per 100k by State where Administered":143330,
    "People Fully Vaccinated by State of Residence":996428
-   }
- },
- {
-   "type": "Feature",
-   "geometry": {
-      "type": "Point",
-      "coordinates":  [ 106.6703,45.6287 ]
-   },
-   "properties": {
-   "State/Territory":"Indian Health Svc",
-   "Total Doses Distributed":3050495,
-   "Doses Distributed per 100K":146460,
-   "Total Doses Administered by State where Administered":2288165,
-   "Doses Administered per 100k by State where Administered":109859,
-   "People Fully Vaccinated by State of Residence":879723
    }
  },
  {
@@ -410,21 +320,6 @@
    "type": "Feature",
    "geometry": {
       "type": "Point",
-      "coordinates":  [ 171.1845,7.1315 ]
-   },
-   "properties": {
-   "State/Territory":"Marshall Islands",
-   "Total Doses Distributed":107680,
-   "Doses Distributed per 100K":138511,
-   "Total Doses Administered by State where Administered":74002,
-   "Doses Administered per 100k by State where Administered":95190,
-   "People Fully Vaccinated by State of Residence":29233
-   }
- },
- {
-   "type": "Feature",
-   "geometry": {
-      "type": "Point",
       "coordinates":  [ -85.602364,44.314844 ]
    },
    "properties": {
@@ -464,21 +359,6 @@
    "Total Doses Administered by State where Administered":9169683,
    "Doses Administered per 100k by State where Administered":149406,
    "People Fully Vaccinated by State of Residence":3471247
-   }
- },
- {
-   "type": "Feature",
-   "geometry": {
-      "type": "Point",
-      "coordinates":  [ 145.6739,15.0979 ]
-   },
-   "properties": {
-   "State/Territory":"Northern Mariana Islands",
-   "Total Doses Distributed":127430,
-   "Doses Distributed per 100K":245762,
-   "Total Doses Administered by State where Administered":110104,
-   "Doses Administered per 100k by State where Administered":212347,
-   "People Fully Vaccinated by State of Residence":43411
    }
  },
  {
@@ -710,21 +590,6 @@
    "type": "Feature",
    "geometry": {
       "type": "Point",
-      "coordinates":  [ 134.5825,7.515 ]
-   },
-   "properties": {
-   "State/Territory":"Republic of Palau",
-   "Total Doses Distributed":46290,
-   "Doses Distributed per 100K":214982,
-   "Total Doses Administered by State where Administered":48404,
-   "Doses Administered per 100k by State where Administered":224800,
-   "People Fully Vaccinated by State of Residence":18219
-   }
- },
- {
-   "type": "Feature",
-   "geometry": {
-      "type": "Point",
       "coordinates":  [ -71.477429,41.580095 ]
    },
    "properties": {
@@ -824,36 +689,6 @@
    "Total Doses Administered by State where Administered":16948298,
    "Doses Administered per 100k by State where Administered":198562,
    "People Fully Vaccinated by State of Residence":6306081
-   }
- },
- {
-   "type": "Feature",
-   "geometry": {
-      "type": "Point",
-      "coordinates":  [ 117.2318,32.8746 ]
-   },
-   "properties": {
-   "State/Territory":"Veterans Health",
-   "Total Doses Distributed":8359320,
-   "Doses Distributed per 100K":null,
-   "Total Doses Administered by State where Administered":7593067,
-   "Doses Administered per 100k by State where Administered":null,
-   "People Fully Vaccinated by State of Residence":2966154
-   }
- },
- {
-   "type": "Feature",
-   "geometry": {
-      "type": "Point",
-      "coordinates":  [ 64.8963,18.3358 ]
-   },
-   "properties": {
-   "State/Territory":"Virgin Islands",
-   "Total Doses Distributed":155060,
-   "Doses Distributed per 100K":145884,
-   "Total Doses Administered by State where Administered":148267,
-   "Doses Administered per 100k by State where Administered":139493,
-   "People Fully Vaccinated by State of Residence":57255
    }
  },
  {
