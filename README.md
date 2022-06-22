@@ -16,14 +16,16 @@ mind can be tricky. Using the Covid Dashboard, users can easily identify which a
 [states_lat_long](https://developers.google.com/public-data/docs/canonical/states_csv)
 
 ## Data Cleaning/Manipulation & Conversion
+The vlookup formula was used to find and place the latitude and longitude from the [states_lat_long](Resources/states_lat_long.csv) file into the [covid_cases](Resources/covid_cases.csv) and [covid_vaccine](Resources/covid_vaccine.csv) files.
+
 Pandas was used for data cleaning/manipulation and conversion. 
 
-Certain columns were selected from the [covid_cases](Resources/covid_cases.csv) and [covid_vaccine](Resources/covid_vaccine.csv) files to be placed into 2 separate dataframes. Then those 2 dataframes were merged with the [states_lat_long](Resources/states_lat_long.csv) file on the "State/Territory" column and saved as csv files.
+Certain columns were selected from the [merged_covid_cases](Resources/merged_covid_cases.csv) and [merged_covid_vaccine](Resources/merged_covid_vaccine.csv) files to be placed into 2 separate dataframes and saved as csv files.
 
-cleaned & merged covid_case dataframe:
+cleaned covid_case dataframe:
 ![covid_case](Images/covid_case.PNG)
 
-cleaned & merged covid_vaccine dataframe:
+cleaned covid_vaccine dataframe:
 ![covid_vaccine](Images/covid_vaccine.PNG)
 
 The [WHO_Covid19_Global_Data](Resources/WHO_COVID19_Global_Data.csv) file was extracted into a dataframe and the data was saved as a html file after setting the "name" column as the index.
