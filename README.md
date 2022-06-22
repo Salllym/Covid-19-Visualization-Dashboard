@@ -17,6 +17,8 @@ In terms of total doses administered per state, users will be able to see total 
 
 For total doses distributed per state, users will be able to see total doses distributed, total doses distributed rate (per 100K of total population), and people fully vaccinated.
 
+In addition, the Covid19 Global Counts of Cases & Deaths is included for users to see how the United States's counts of cases and deaths compare to others globally in general.
+
 ## Datasets
 [WHO_Covid19_Global_Data](https://covid19.who.int/data)
 
