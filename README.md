@@ -22,10 +22,10 @@ Pandas was used for data cleaning/manipulation and conversion.
 
 Certain columns were selected from the [merged_covid_cases](Resources/merged_covid_cases.csv) and [merged_covid_vaccine](Resources/merged_covid_vaccine.csv) files to be placed into 2 separate dataframes and saved as csv files.
 
-cleaned covid_case dataframe:
+cleaned_covid_case dataframe:
 ![covid_case](Images/covid_case.PNG)
 
-cleaned covid_vaccine dataframe:
+cleaned_covid_vaccine dataframe:
 ![covid_vaccine](Images/covid_vaccine.PNG)
 
 The [WHO_Covid19_Global_Data](Resources/WHO_COVID19_Global_Data.csv) file was extracted into a dataframe and the data was saved as a html file after setting the "name" column as the index.
