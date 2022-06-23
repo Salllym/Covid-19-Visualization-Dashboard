@@ -63,13 +63,13 @@ Website consists of 4 pages total, including:
 1. An summary of the website.
 2. Links to each visualizations page. There should be a sidebar containing preview images of each visualization, and clicking an image should take the user to that visualization.
 
-### Three visualization pages, each with:
+### Two visualization pages, each with:
 1. A descriptive title.
 2. The plot/visualization itself.
 3. The Cases&Deaths page and Vaccine page both contains a dropdown button menu that provides a link to each individual visualization page. Also, the Cases&Deaths page contains a button that provides a link to the Global_Covid19_Data page too. 
 
 ### A "Data" page that:
-1. Displays a responsive table containing data.
+1. Displays a responsive table containing the Global Counts of Covid-19 Cases & Deaths data.
 2. The table is a bootstrap table component. The data comes from exporting the .csv file as HTML, or converting it to HTML by using pandas. 
 
 ### The website, at the top of every page, have a navigation menu that:
