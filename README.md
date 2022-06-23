@@ -60,7 +60,7 @@ The data in the dashboards in the [covid_cases](https://covid.cdc.gov/covid-data
 Website consists of 4 pages total, including:
 
 ### A landing page containing:
-1. An summary of the website.
+1. Summary of the website.
 2. Links to each visualizations page. There should be a sidebar containing preview images of each visualization, and clicking an image should take the user to that visualization.
 
 ### Two visualization pages, each with:
