@@ -77,13 +77,12 @@ Website consists of 4 pages total, including:
 2. Provides two more text links on the right: "Cases & Deaths," which links to the Cases&Deaths page, and "Vaccine Distribution & Coverage," which links to the vaccine page.
 3. Is responsive (using media queries). The nav must have similar behavior as the screenshots "Navigation Menu" section (notice the background color change).
 4. The website is deployed to GitHub pages.
-
+![nav_menu](Images/nav_menu.PNG)
 
 ## Leaflet Plot Creation
 ### Get the Data Set
-1. The URL below was used to convert the data in the [cleaned_covid_case](Resources/Cleaned_Files/cleaned_covid_case.csv) and [cleaned_covid_vaccine](Resources/Cleaned_Files/cleaned_covid_vaccine.csv) csv files to geojson files. 
+1. The URL https://www.convertcsv.com/csv-to-geojson.htm  was used to convert the data in the [cleaned_covid_case](Resources/Cleaned_Files/cleaned_covid_case.csv) and [cleaned_covid_vaccine](Resources/Cleaned_Files/cleaned_covid_vaccine.csv) csv files to geojson files. 
 
-https://www.convertcsv.com/csv-to-geojson.htm
 
 2. The converted data was used to pull in the data for the visualization.
 
