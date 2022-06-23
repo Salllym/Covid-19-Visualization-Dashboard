@@ -82,8 +82,6 @@ Website consists of 4 pages total, including:
 ## Leaflet Plot Creation
 ### Get the Data Set
 1. The URL https://www.convertcsv.com/csv-to-geojson.htm  was used to convert the data in the [cleaned_covid_case](Resources/Cleaned_Files/cleaned_covid_case.csv) and [cleaned_covid_vaccine](Resources/Cleaned_Files/cleaned_covid_vaccine.csv) csv files to geojson files. 
-
-
 2. The converted data was used to pull in the data for the visualization.
 
 ### Import and Visualize the Data
