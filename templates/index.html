@@ -17,7 +17,7 @@
     <!-- Navigation Section -->
     <div class="navigation">      
       <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="../Cases&Deaths.html">Covid-19</a>            
+        <a class="navbar-brand" href="index.html">Covid-19</a>            
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
            aria-controls="navbarNavDropdown" aria-expanded="true" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -36,39 +36,59 @@
   
   </div> 
 <!-- Content Section-->
-      <div class="container">
-        <div class="box">
-          <h3 class="title">  Cases & Deaths in the United States
-          </h3>
-          <hr>
-          <p>
-            <div class="dropdown">
-              <button onclick="myFunction()" class="dropbtn">View</button>
-              <div id="myDropdown" class="dropdown-content">
-                <a href="../Cases.html">Cases</a>
-                <a href="../Deaths.html">Deaths</a>
-              </div>
-            </div> 
-            
-            <div class="button text-right">
-              <p><a class="btn btn-primary btn-small" href="..\Data_Conversion\Global_Covid19_Data.html"
-                  role="button">Global Counts of Cases & Deaths</a></p>
-          </div>
-             
-          </p>
-          <br>
-          <div class="table-responsive" style="overflow-x: auto; overflow-y: auto; 
-            max-height: 470px; max-width: auto;">
-
-
+<div class="container">
+  <div class="row">
+    <div class="col-lg-7 col-md-12">
+      <div class="box" style="padding-bottom: 5px;">
+        <h3 class="title">Summary: Covid-19 Data</h3>
+        <hr>
+        <img src="../Images/Case_Map.png" class="vizualization rounded float-center" alt="Case_Map">
+        <p>
+          
+        </p>
+        <p>
+          Data visualizations and dashboards are presented for Covid-19 data in terms of cases, deaths, and 
+          vaccinations in the United States along with global counts of cases & deaths.
+        </p>
+      </div>
+    </div>
+    <div class="col-lg-5 col-md-12">
+      <div class="box">
+        <h5 class="title">Visualizations</h5>
+        <hr>
+        <div class="container">
+          <div class="row" style="padding-bottom: 30px;">
+            <div class="col-6">
+              <a href="../Cases.html">
+                <img class="panel" src="../Images/Case_Map.png" alt="Case_Map">
+              </a>
             </div>
+            <div class="col-6">
+              <a href="../Deaths.html">
+                <img class="panel" src="../Images/Death_Map.png" alt="Death_Map">
+              </a>
+            </div>
+          </div>
+          <div class="row" style="padding-bottom: 30px;">
+            <div class="col-6">
+              <a href="../Vaccine.html">
+                <img class="panel" src="../Images/Vaccine_Map.png" alt="Vaccine_Map">
+              </a>
+            </div>
+            <div class="col-6">
+              <a href="..\Data_Conversion\Global_Covid19_Data.html">
+                <img class="panel" src="../Images/global_data.png" alt="global_data">
+              </a>
+            </div>          
+          </div>
         </div>
       </div>
-
-      <div class="container">
-
-
     </div>
+
+
+
+  </div>
+</div>
 
   <!-- Footer Section -->
   <footer>

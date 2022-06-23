@@ -51,6 +51,49 @@ WHO_Covid19_Global_Data dataframe:
 
 
 ## Webscraping
-The data in the dashboards in the [covid_cases](https://covid.cdc.gov/covid-data-tracker/#cases_casesper100klast7days) and [covid_vaccine](https://covid.cdc.gov/covid-data-tracker/#vaccinations_vacc-total-admin-rate-total) websites were webscraped and placed into MongoDB. Flask was used to pull the data from MongoDB into the index.html file for display. 
+The data in the dashboards in the [covid_cases](https://covid.cdc.gov/covid-data-tracker/#cases_casesper100klast7days) and [covid_vaccine](https://covid.cdc.gov/covid-data-tracker/#vaccinations_vacc-total-admin-rate-total) websites were webscraped and placed into MongoDB. Flask was used to pull the data from MongoDB into the html file for display. 
 ![dashboard1_data](Images/dashboard1.PNG)
 ![dashboard_data](Images/dashboard.PNG)
+
+
+## Webpage Development
+Website consists of 4 pages total, including:
+
+### A landing page containing:
+1. An summary of the website.
+2. Links to each visualizations page. There should be a sidebar containing preview images of each visualization, and clicking an image should take the user to that visualization.
+
+### Three visualization pages, each with:
+1. A descriptive title.
+2. The plot/visualization itself.
+3. The Cases&Deaths page and Vaccine page both contains a dropdown button menu that provides a link to each individual visualization page. Also, the Cases&Deaths page contains a button that provides a link to the Global_Covid19_Data page too. 
+
+### A "Data" page that:
+1. Displays a responsive table containing data.
+2. The table is a bootstrap table component. The data comes from exporting the .csv file as HTML, or converting it to HTML by using pandas. 
+
+### The website, at the top of every page, have a navigation menu that:
+1. Has the name of the site on the left of the nav which allows users to return to the landing page from any page.
+2. Provides two more text links on the right: "Cases & Deaths," which links to the Cases&Deaths page, and "Vaccine Distribution & Coverage," which links to the vaccine page.
+3. Is responsive (using media queries). The nav must have similar behavior as the screenshots "Navigation Menu" section (notice the background color change).
+4. The website is deployed to GitHub pages.
+
+
+## Leaflet Plot Creation
+### Get the Data Set
+1. The URL below was used to convert the data in the [cleaned_covid_case](Resources/Cleaned_Files/cleaned_covid_case.csv) and [cleaned_covid_vaccine](Resources/Cleaned_Files/cleaned_covid_vaccine.csv) csv files to geojson files. 
+
+https://www.convertcsv.com/csv-to-geojson.htm
+
+2. The converted data was used to pull in the data for the visualization.
+
+### Import and Visualize the Data
+1. A choropleth map using leaflet plots all of the states from the data set based on their longitude and latitude.
+2. Popups that provide Covid-19 information were included when the user hovers their mouse over a state
+3. A legend was created to provide context for the map data
+
+## Plotly Creation
+3 horizontal bar charts were created showing:
+- U.S. COVID-19 Vaccine Administration by Vaccine Type
+- U.S. COVID-19 Vaccine Delivered by Vaccine Type
+- Number of People Fully Vaccinated in the U.S. by COVID-19 Vaccine Series Type
