@@ -575,21 +575,6 @@
    "type": "Feature",
    "geometry": {
       "type": "Point",
-      "coordinates":  [ -66.590149,18.220833 ]
-   },
-   "properties": {
-   "State/Territory":"Puerto Rico",
-   "Total Doses Distributed":7698950,
-   "Doses Distributed per 100K":241067,
-   "Total Doses Administered by State where Administered":7333703,
-   "Doses Administered per 100k by State where Administered":229631,
-   "People Fully Vaccinated by State of Residence":2667387
-   }
- },
- {
-   "type": "Feature",
-   "geometry": {
-      "type": "Point",
       "coordinates":  [ -71.477429,41.580095 ]
    },
    "properties": {

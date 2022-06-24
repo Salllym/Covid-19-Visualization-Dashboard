@@ -15,6 +15,13 @@
     <!-- d3 -->
     <script src="https://d3js.org/d3.v5.min.js"></script>
 
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+      integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+      crossorigin="" />
+
+    <link rel="shortcut icon" href="#" />
+
 </head>
 <body id="data">
   <!-- Navigation Section -->
@@ -28,69 +35,80 @@
                   
     </nav>  
 
-</div> 
-<!-- Content Section-->
-<div class="container">
-  <div class="box">
-    <h3 class="title">  Covid-19 Cases & Deaths in the United States
-    </h3> 
-      <div class="dropdown">
-        <button onclick="myFunction(1)" class="dropbtn">View</button>
-        <div id="myDropdown1" class="dropdown-content">
-          <a href="Cases.html">Cases</a>
-          <a href="Deaths.html">Deaths</a>
+  </div> 
+  <!-- Content Section-->
+  <div class="container">
+    <div class="box">
+      <h3 class="title">  Covid-19 Cases & Deaths in the United States
+      </h3> 
+        <div class="dropdown">
+          <button onclick="myFunction(1)" class="dropbtn">View</button>
+          <div id="myDropdown1" class="dropdown-content">
+            <a href="Cases.html">Cases</a>
+            <a href="Deaths.html">Deaths</a>
+          </div>
         </div>
-      </div> 
+      <hr>
+      <!-- The div that holds our map -->
+      <div id="map" style="height: 600px"></div> 
+    </div>
+
+
+        <div class="box">
+          <h4 class="title">Global Counts of Covid-19 Cases & Deaths
+          </h4>
+        
+          <div class="button text-left">
+            <p><a class="btn btn-primary btn-small" href="..\Data_Conversion\Global_Covid19_Data.html"
+                role="button">View Global Covid-19 Data Here</a></p>
+          </div>
+        
+        </div>
+        
+        <div class="box">
+          <h4 class="title">Covid-19 Vaccinations in the United States
+          </h4>  
+          <div class="dropdown">
+            <button onclick="myFunction(2)" class="dropbtn">Views</button>
+            <div id="myDropdown2" class="dropdown-content">
+              <a href="Vaccine-Administered.html">Total Doses Administered</a>
+              <a href="Vaccine-Distributed.html">Total Doses Distributed</a>
+            </div>
+          </div> 
+          <hr>
+          <!-- The div that holds our map -->
+          <div id="map2" style="height: 600px"></div> 
+        </div> 
+      
+      <br>
+      <div class="table-responsive" style="overflow-x: auto; overflow-y: auto; 
+        max-height: 470px; max-width: auto;">
+      </div>
   </div>
 
-      <div class="box">
-        <h4 class="title">Global Counts of Covid-19 Cases & Deaths
-        </h4>
-       
-        <div class="button text-left">
-          <p><a class="btn btn-primary btn-small" href="..\Data_Conversion\Global_Covid19_Data.html"
-              role="button">View Global Covid-19 Data Here</a></p>
-        </div>
-      </div> 
-
-      <div class="box">
-        <h4 class="title">Covid-19 Vaccinations in the United States
-        </h4>  
-      
-        
-        <div class="dropdown">
-          <button onclick="myFunction(2)" class="dropbtn">Views</button>
-          <div id="myDropdown2" class="dropdown-content">
-            <a href="Vaccine-Administered.html">Total Doses Administered</a>
-            <a href="Vaccine-Distributed.html">Total Doses Distributed</a>
-          </div>
-        </div> 
-      </div> 
-    
-    <br>
-    <div class="table-responsive" style="overflow-x: auto; overflow-y: auto; 
-      max-height: 470px; max-width: auto;">
-    </div>
-</div>
-
-<div class="container">
+  <div class="container">
 
 
-</div>
+  </div>
 
-<!-- Footer Section -->
-<footer>
-<div class="footer">&copy; Copyright 2022</div>
-</footer>      
+  <!-- Footer Section -->
+  <footer>
+  <div class="footer">&copy; Copyright 2022</div>
+  </footer>      
 
-<!-- Bootstrap JS -->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-<script src="static/js/dropdownbutton.js"></script>
+  <!-- Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  <script src="static/js/dropdownbutton.js"></script>
 
-<!-- leaflet script -->
-<script type="text/javascript" src="static/js/logic.js"></script>
+  <!-- Leaflet JS -->
+  <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+    integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+    crossorigin=""></script>
+
+  <!-- leaflet script -->
+  <script type="text/javascript" src="static/js/logic.js"></script>
 
 </body>
 </html>
