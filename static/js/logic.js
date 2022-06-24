@@ -79,16 +79,16 @@ function style_covid(feature) {
 
 // Function to decide color for vaccine map
 function getVaccineColor(x) {
-    return x > 250000 ? '#800026' :
-           x > 200000 ? '#E31A1C' :
-           x > 150000 ? '#FD8D3C' :
+    return x > 200000 ? '#800026' :
+           x > 150000 ? '#E31A1C' :
+           x > 100000 ? '#FD8D3C' :
                      '#FED976';
 };
 
 // Function to style the vaccine_map
 function style_vaccine(feature) {
     return {
-        fillColor: getVaccineColor(feature['properties']['Doses Distributed per 100K']),
+        fillColor: getVaccineColor(feature['properties']['Doses Administered per 100k by State where Administered']),
         weight: 2,
         opacity: 1,
         color: 'white',
