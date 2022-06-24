@@ -57,13 +57,14 @@ The data in the dashboards in the [covid_cases](https://covid.cdc.gov/covid-data
 
 
 ## Webpage Development
-### Two visualization pages, each with:
-1. Descriptive titles
-2. The plots/visualizations
-3. Dropdown menu buttons for users to select which view they want to see on the map  
-4. Button that provides a link to the Global_Covid19_Data page
-5. Responsive (using media queries)
-4. Deployed to GitHub pages.
+1. Name of the site on the left of the nav which allows users to return to the landing page from any page
+2. Descriptive titles
+3. The plots/visualizations
+4. Dropdown menu buttons for users to select which view they want to see on the map  
+5. Button that provides a link to the Global_Covid19_Data page
+6. Responsive (using media queries)
+7. Deployed to GitHub pages
+
 
 
 ## Leaflet Plot Creation
