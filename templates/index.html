@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Covid19</title>
+    <title>Covid19-Cases-Deaths</title>
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
@@ -14,92 +14,72 @@
 
 </head>
 <body id="data">
-    <!-- Navigation Section -->
-    <div class="navigation">      
-      <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="index.html">Covid-19</a>            
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-           aria-controls="navbarNavDropdown" aria-expanded="true" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="../Cases&Deaths.html">Cases & Deaths</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../Vaccine.html">Vaccine Distribution & Coverage</a>
-            </li>
-          </ul>
-        </div>            
-      </nav>  
   
-  </div> 
 <!-- Content Section-->
 <div class="container">
-  <div class="row">
-    <div class="col-lg-7 col-md-12">
-      <div class="box" style="padding-bottom: 5px;">
-        <h3 class="title">Summary: Covid-19 Data</h3>
-        <hr>
-        <img src="../Images/Case_Map.png" class="vizualization rounded float-center" alt="Case_Map">
-        <p>
-          
-        </p>
-        <p>
-          Data visualizations and dashboards are presented for Covid-19 data in terms of cases, deaths, and 
-          vaccinations in the United States along with global counts of cases & deaths.
-        </p>
-      </div>
-    </div>
-    <div class="col-lg-5 col-md-12">
-      <div class="box">
-        <h5 class="title">Visualizations</h5>
-        <hr>
-        <div class="container">
-          <div class="row" style="padding-bottom: 30px;">
-            <div class="col-6">
-              <a href="../Cases.html">
-                <img class="panel" src="../Images/Case_Map.png" alt="Case_Map">
-              </a>
-            </div>
-            <div class="col-6">
-              <a href="../Deaths.html">
-                <img class="panel" src="../Images/Death_Map.png" alt="Death_Map">
-              </a>
-            </div>
-          </div>
-          <div class="row" style="padding-bottom: 30px;">
-            <div class="col-6">
-              <a href="../Vaccine.html">
-                <img class="panel" src="../Images/Vaccine_Map.png" alt="Vaccine_Map">
-              </a>
-            </div>
-            <div class="col-6">
-              <a href="..\Data_Conversion\Global_Covid19_Data.html">
-                <img class="panel" src="../Images/global_data.png" alt="global_data">
-              </a>
-            </div>          
-          </div>
+  <div class="box">
+    <h3 class="title">  Covid-19 Dashboard
+    </h3>
+    <hr>
+    <p>
+
+      <h4 class="title">  Covid-19 Cases & Deaths in the United States
+      </h4>  
+
+      <div class="dropdown">
+        <button onclick="myFunction(1)" class="dropbtn">View</button>
+        <div id="myDropdown1" class="dropdown-content">
+          <a href="Cases.html">Cases</a>
+          <a href="Deaths.html">Deaths</a>
         </div>
+      </div> 
+      
+
+      <div class="button text-right">
+        <p><a class="btn btn-primary btn-small" href="..\Data_Conversion\Global_Covid19_Data.html"
+            role="button">Global Counts of Covid-19 Cases & Deaths</a></p>
       </div>
-    </div>
 
 
+      <div class="box">
+        <h4 class="title">  Covid-19 Vaccinations in the United States
+        </h4>  
+      
+        
+      <div class="dropdown">
+        <button onclick="myFunction(2)" class="dropbtn">Views</button>
+        <div id="myDropdown2" class="dropdown-content">
+          <a href="Vaccine-Administered.html">Total Doses Administered</a>
+          <a href="Vaccine-Distributed.html">Total Doses Distributed</a>
+        </div>
+      </div> 
+       
+    
+    </p>
+    <br>
+    <div class="table-responsive" style="overflow-x: auto; overflow-y: auto; 
+      max-height: 470px; max-width: auto;">
 
+
+      </div>
   </div>
 </div>
 
-  <!-- Footer Section -->
-  <footer>
-    <div class="footer">&copy; Copyright 2022</div>
-  </footer>      
-    
-  <!-- Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-  <script src="../assets/js/dropdownbutton.js"></script>
+<div class="container">
+
+
+</div>
+
+<!-- Footer Section -->
+<footer>
+<div class="footer">&copy; Copyright 2022</div>
+</footer>      
+
+<!-- Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<script src="../assets/js/dropdownbutton.js"></script>
 
 </body>
 </html>
