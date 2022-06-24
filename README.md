@@ -57,28 +57,14 @@ The data in the dashboards in the [covid_cases](https://covid.cdc.gov/covid-data
 
 
 ## Webpage Development
-Website consists of 4 pages total, including:
-
-### A landing page containing:
-1. Summary of the website.
-2. Links to each visualizations page. There should be a sidebar containing preview images of each visualization, and clicking an image should take the user to that visualization.
-
 ### Two visualization pages, each with:
-1. A descriptive title.
-2. The plot/visualization itself.
-3. The Cases&Deaths page and Vaccine page both contains a dropdown button menu that provides a link to each individual visualization page. Also, the Cases&Deaths page contains a button that provides a link to the Global_Covid19_Data page too. 
+1. Descriptive titles
+2. The plots/visualizations
+3. Dropdown menu buttons for users to select which view they want to see on the map  
+4. Button that provides a link to the Global_Covid19_Data page
+5. Responsive (using media queries)
+4. Deployed to GitHub pages.
 
-### A "Data" page that:
-1. Displays a responsive table containing the Global Counts of Covid-19 Cases & Deaths data.
-2. The table is a bootstrap table component. The data comes from exporting the .csv file as HTML, or converting it to HTML by using pandas. 
-
-### The website, at the top of every page, have a navigation menu that:
-1. Has the name of the site on the left of the nav which allows users to return to the landing page from any page.
-2. Provides two more text links on the right: "Cases & Deaths," which links to the Cases&Deaths page, and "Vaccine Distribution & Coverage," which links to the vaccine page.
-3. Is responsive (using media queries). The nav must have similar behavior as the screenshots "Navigation Menu" section (notice the background color change).
-4. The website is deployed to GitHub pages.
-
-![nav_menu](Images/nav_menu.PNG)
 
 ## Leaflet Plot Creation
 ### Get the Data Set
