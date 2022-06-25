@@ -65,7 +65,7 @@ The data in the dashboards in the [covid_cases](https://covid.cdc.gov/covid-data
 2. Contains a dropdown menu on the right of the navbar named "More Covid-19 Data" that provides links to the CDC Covid-19 Data Tracker and WHO Covid-19 Dashboard websites.
 3. Descriptive titles
 4. The plots/visualizations
-5. Dropdown menu buttons for users to select which view they want to see on the map  
+5. Map control feature for users to select which view they want to see on the map  
 6. Button that provides a link to the Global_Covid19_Data page
 7. Responsive (using media queries)
 8. Deployed to GitHub pages
