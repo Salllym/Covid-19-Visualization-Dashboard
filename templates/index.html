@@ -98,7 +98,22 @@
         max-height: 470px; max-width: auto;">
       </div>
   </div>
-
+ <!-- The div that holds the bar charts-->
+  <div class="chartMenu">
+    <p>Covid 19 Bar Charts</p>
+  </div>
+  <div class="chartCard">
+    <div class="chartBox">
+      <canvas id="Covid_Vaccicne_Devlivered_by_type"></canvas>
+    </div>
+    <div class="chartBox">
+      <canvas id="Covid_Vaccine_Admin_by_type"></canvas>
+    </div>
+    <div class="chartBox">
+      <canvas id="Number_people_vaccinated_us"></canvas>
+    </div>
+  </div>
+ 
   <div class="container">
 
 
@@ -122,6 +137,218 @@
 
   <!-- leaflet script -->
   <script type="text/javascript" src="static/js/logic.js"></script>
+<!-- chart.js script/data -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+  // setup 
+  const delivered_vaccine_data = {
+    labels: ['Pfizer-BioNTech', 'Moderna', 'J&J/Janssen', 'Other'],
+    datasets: [{
+      label: 'Devlivered Vaccines by Type',
+      data: [445134235, 282063620, 282063620, 0],
+      backgroundColor: [
+        'rgba(255, 26, 104, 0.2)',
+        'rgba(54, 162, 235, 0.2)',
+        'rgba(255, 206, 86, 0.2)',
+        'rgba(75, 192, 192, 0.2)',
+        'rgba(153, 102, 255, 0.2)',
+        'rgba(255, 159, 64, 0.2)',
+        'rgba(0, 0, 0, 0.2)'
+      ],
+      borderColor: [
+        'rgba(255, 26, 104, 1)',
+        'rgba(54, 162, 235, 1)',
+        'rgba(255, 206, 86, 1)',
+        'rgba(75, 192, 192, 1)',
+        'rgba(153, 102, 255, 1)',
+        'rgba(255, 159, 64, 1)',
+        'rgba(0, 0, 0, 1)'
+      ],
+      borderWidth: 1
+    }]
+  };
+  const administrated_vaccine_data = {
+    labels: ['Pfizer-BioNTech', 'Moderna', 'J&J/Janssen', 'Other'],
+    datasets: [{
+      label: 'Administrated Vaccines by Type',
+      data: [349460399, 223409934, 18811735, 587184],
+      backgroundColor: [
+        'rgba(255, 26, 104, 0.2)',
+        'rgba(54, 162, 235, 0.2)',
+        'rgba(255, 206, 86, 0.2)',
+        'rgba(75, 192, 192, 0.2)',
+        'rgba(153, 102, 255, 0.2)',
+        'rgba(255, 159, 64, 0.2)',
+        'rgba(0, 0, 0, 0.2)'
+      ],
+      borderColor: [
+        'rgba(255, 26, 104, 1)',
+        'rgba(54, 162, 235, 1)',
+        'rgba(255, 206, 86, 1)',
+        'rgba(75, 192, 192, 1)',
+        'rgba(153, 102, 255, 1)',
+        'rgba(255, 159, 64, 1)',
+        'rgba(0, 0, 0, 1)'
+      ],
+      borderWidth: 1
+    }]
+  };
+  const number_people_vaccinated_us_data = {
+    labels: ['Pfizer-BioNTech', 'Moderna', 'J&J/Janssen', 'Other'],
+    datasets: [{
+      label: 'Number of people vaccinated in US',
+      data: [127603112, 77129172, 17026792, 165076],
+      backgroundColor: [
+        'rgba(255, 26, 104, 0.2)',
+        'rgba(54, 162, 235, 0.2)',
+        'rgba(255, 206, 86, 0.2)',
+        'rgba(75, 192, 192, 0.2)',
+        'rgba(153, 102, 255, 0.2)',
+        'rgba(255, 159, 64, 0.2)',
+        'rgba(0, 0, 0, 0.2)'
+      ],
+      borderColor: [
+        'rgba(255, 26, 104, 1)',
+        'rgba(54, 162, 235, 1)',
+        'rgba(255, 206, 86, 1)',
+        'rgba(75, 192, 192, 1)',
+        'rgba(153, 102, 255, 1)',
+        'rgba(255, 159, 64, 1)',
+        'rgba(0, 0, 0, 1)'
+      ],
+      borderWidth: 1
+    }]
+  };
 
+  // config 
+  const config = {
+    type: 'bar',
+    data: delivered_vaccine_data,
+    options: {
+        scales: {
+            y: {
+                title: {
+                    display: true,
+                    text: 'Vaccine Types'
+                }
+            },
+            x:{
+                title: {
+                    display: true,
+                    text: 'Amount Delivered'
+                }
+            }
+        },
+        indexAxis: 'y',
+        elements: {
+            bar: {
+                borderWidth: 2,
+            }
+        },
+        responsive: true,
+        plugins:{
+            legend: {
+                position: 'right'
+            },
+            title: {
+              display: true,  
+              text: 'Delivered Vaccines'
+            }
+        }
+
+    }
+  };
+  const config2 = {
+    type: 'bar',
+    data: administrated_vaccine_data,
+    options: {
+      scales: {
+            y: {
+                title: {
+                    display: true,
+                    text: 'Vaccine Types'
+                }
+            },
+            x:{
+                title: {
+                    display: true,
+                    text: 'Amount Administarted'
+                }
+            }
+        },
+        indexAxis: 'y',
+        elements: {
+            bar: {
+                borderWidth: 2,
+            }
+        },
+        responsive: true,
+        plugins:{
+            legend: {
+                position: 'right'
+            },
+            title: {
+              display: true,  
+              text: 'Administrated Vaccines'
+            }
+        }
+
+      
+    }
+  };
+  const config3 = {
+    type: 'bar',
+    data: number_people_vaccinated_us_data,
+    options: {
+      scales: {
+            y: {
+                title: {
+                    display: true,
+                    text: 'Vaccine Types'
+                }
+            },
+            x:{
+                title: {
+                    display: true,
+                    text: 'Amount of People Vaccinated'
+                }
+            }
+        },
+        indexAxis: 'y',
+        elements: {
+            bar: {
+                borderWidth: 2,
+            }
+        },
+        responsive: true,
+        plugins:{
+            legend: {
+                position: 'right'
+            },
+            title: {
+              display: true,  
+              text: 'Number of People vaccinated in the US'
+            }
+        }
+      
+    }
+  };
+
+  // render first block
+  const Covid_Vaccicne_Devlivered_by_type = new Chart(
+    document.getElementById('Covid_Vaccicne_Devlivered_by_type'),
+    config
+  );
+  //render second block
+  const Covid_Vaccine_Admin_by_type = new Chart(
+    document.getElementById('Covid_Vaccine_Admin_by_type'),
+    config2
+  );
+  const Number_people_vaccinated_us = new Chart(
+    document.getElementById('Number_people_vaccinated_us'),
+    config3
+  );
+  
+   </script>
 </body>
 </html>
