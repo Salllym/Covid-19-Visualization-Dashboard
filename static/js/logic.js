@@ -79,10 +79,70 @@ function createCovidMap(data) {
     }).addTo(map);
 };
 
+// function createVaccineMap(data) {
+//     var map = L.map('map2', {
+//         center: [37.8, -96],
+//         zoom: 4,
+//     });
+
+//     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+//         maxZoom: 19,
+//         attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+//     }).addTo(map);
+
+//     L.geoJson(data, {
+//         style: styleVaccineAdministered,
+//         onEachFeature: function (feature, layer) {
+//             layer.bindPopup(`<h3>${feature['properties']['State/Territory']}</h3>`);
+//         }
+//     }).addTo(map);
+// };
+
 function createVaccineMap(data) {
+    var administered = L.geoJson(data, {
+        style: styleVaccineAdministered,
+        onEachFeature: function (feature, layer) {
+            layer.bindPopup(`<h4>${feature['properties']['State/Territory']}</h4><hr><p>Total Doses Administered: ${feature['properties']['Total Doses Administered by State where Administered']}</p>
+                <p>Total Doses Administerd per 100000: ${feature['properties']['Doses Administered per 100k by State where Administered']}</p><p>People Fully Vaccinated: ${feature['properties']['People Fully Vaccinated by State of Residence']}</p>`, 
+                {closeButton: false, offset: L.point(-20, -20)});
+            layer.on('mouseover', function() {
+                layer.openPopup();
+            });
+            layer.on('mouseout', function() {
+                layer.closePopup();
+            });
+            layer.on('click', function(event) {
+                map.fitBounds(event.target.getBounds());
+            });
+        }
+    });
+    var distributed = L.geoJson(data, {
+        style: styleVaccineDistributed,
+        onEachFeature: function (feature, layer) {
+            layer.bindPopup(`<h4>${feature['properties']['State/Territory']}</h4><hr><p>Total Doses Distributed: ${feature['properties']['Total Doses Distributed']}</p>
+                <p>Total Doses Distributed per 100000: ${feature['properties']['Doses Distributed per 100K']}</p><p>People Fully Vaccinated: ${feature['properties']['People Fully Vaccinated by State of Residence']}</p>`,
+                {closeButton: false, offset: L.point(-20, -20)});
+            layer.on('mouseover', function() {
+                layer.openPopup();
+            });
+            layer.on('mouseout', function() {
+                layer.closePopup();
+            });
+            layer.on('click', function(event) {
+                map.fitBounds(event.target.getBounds());
+            });
+        }
+    });
+    
+    var overlayMaps = {
+        Administered: administered,
+        Distributed: distributed
+    };
+
     var map = L.map('map2', {
         center: [37.8, -96],
         zoom: 4,
+        layers: [administered, distributed]
     });
 
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -90,11 +150,8 @@ function createVaccineMap(data) {
         attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
     }).addTo(map);
 
-    L.geoJson(data, {
-        style: styleVaccine,
-        onEachFeature: function (feature, layer) {
-            layer.bindPopup(`<h3>${feature['properties']['State/Territory']}</h3>`);
-        }
+    L.control.layers(null, overlayMaps, {
+        collapsed: false
     }).addTo(map);
 };
 
@@ -139,17 +196,37 @@ function styleCovidDeaths(feature) {
 }
 
 // Function to decide color for vaccine map
-function getVaccineColor(x) {
+function getVaccineAdministeredColor(x) {
     return x > 200000 ? '#800026' :
            x > 150000 ? '#E31A1C' :
            x > 100000 ? '#FD8D3C' :
                      '#FED976';
 };
 
+// Function to decide color for vaccine map
+function getVaccineDistributedColor(x) {
+    return x > 250000 ? '#800026' :
+           x > 200000 ? '#E31A1C' :
+           x > 150000 ? '#FD8D3C' :
+                     '#FED976';
+};
+
 // Function to style the vaccine_map
-function styleVaccine(feature) {
+function styleVaccineAdministered(feature) {
     return {
-        fillColor: getVaccineColor(feature['properties']['Doses Administered per 100k by State where Administered']),
+        fillColor: getVaccineAdministeredColor(feature['properties']['Doses Administered per 100k by State where Administered']),
+        weight: 2,
+        opacity: 1,
+        color: 'white',
+        dashArray: '3',
+        fillOpacity: 0.7
+    }; 
+}
+
+// Function to style the vaccine_map
+function styleVaccineDistributed(feature) {
+    return {
+        fillColor: getVaccineDistributedColor(feature['properties']['Doses Administered per 100k by State where Administered']),
         weight: 2,
         opacity: 1,
         color: 'white',

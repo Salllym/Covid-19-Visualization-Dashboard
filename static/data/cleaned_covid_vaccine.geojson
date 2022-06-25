@@ -1,7 +1,22 @@
 {
   "type": "FeatureCollection",
   "features": [
- {
+  {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -86.902298,32.318231 ]
+   },
+   "properties": {
+   "State/Territory":"Alabama",
+   "Total Doses Distributed":10035640,
+   "Doses Distributed per 100K":204676,
+   "Total Doses Administered by State where Administered":6402751,
+   "Doses Administered per 100k by State where Administered":130584,
+   "People Fully Vaccinated by State of Residence":2527041
+   }
+ },
+  {
    "type": "Feature",
    "geometry": {
       "type": "Point",
@@ -17,19 +32,19 @@
    }
  },
  {
-   "type": "Feature",
-   "geometry": {
-      "type": "Point",
-      "coordinates":  [ -86.902298,32.318231 ]
-   },
-   "properties": {
-   "State/Territory":"Alabama",
-   "Total Doses Distributed":10035640,
-   "Doses Distributed per 100K":204676,
-   "Total Doses Administered by State where Administered":6402751,
-   "Doses Administered per 100k by State where Administered":130584,
-   "People Fully Vaccinated by State of Residence":2527041
-   }
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -111.093731,34.048928 ]
+  },
+  "properties": {
+  "State/Territory":"Arizona",
+  "Total Doses Distributed":15453620,
+  "Doses Distributed per 100K":212312,
+  "Total Doses Administered by State where Administered":12537556,
+  "Doses Administered per 100k by State where Administered":172250,
+  "People Fully Vaccinated by State of Residence":4532807
+  }
  },
  {
    "type": "Feature",
@@ -44,21 +59,6 @@
    "Total Doses Administered by State where Administered":4333404,
    "Doses Administered per 100k by State where Administered":143595,
    "People Fully Vaccinated by State of Residence":1657535
-   }
- },
- {
-   "type": "Feature",
-   "geometry": {
-      "type": "Point",
-      "coordinates":  [ -111.093731,34.048928 ]
-   },
-   "properties": {
-   "State/Territory":"Arizona",
-   "Total Doses Distributed":15453620,
-   "Doses Distributed per 100K":212312,
-   "Total Doses Administered by State where Administered":12537556,
-   "Doses Administered per 100k by State where Administered":172250,
-   "People Fully Vaccinated by State of Residence":4532807
    }
  },
  {
@@ -167,6 +167,51 @@
    }
  },
  {
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -114.742041,44.068202 ]
+  },
+  "properties": {
+  "State/Territory":"Idaho",
+  "Total Doses Distributed":3567590,
+  "Doses Distributed per 100K":199634,
+  "Total Doses Administered by State where Administered":2561404,
+  "Doses Administered per 100k by State where Administered":143330,
+  "People Fully Vaccinated by State of Residence":996428
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -89.398528,40.633125 ]
+  },
+  "properties": {
+  "State/Territory":"Illinois",
+  "Total Doses Distributed":28618545,
+  "Doses Distributed per 100K":225844,
+  "Total Doses Administered by State where Administered":23201025,
+  "Doses Administered per 100k by State where Administered":183091,
+  "People Fully Vaccinated by State of Residence":8754366
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -85.602364,40.551217 ]
+  },
+  "properties": {
+  "State/Territory":"Indiana",
+  "Total Doses Distributed":14070580,
+  "Doses Distributed per 100K":209004,
+  "Total Doses Administered by State where Administered":10037673,
+  "Doses Administered per 100k by State where Administered":149099,
+  "People Fully Vaccinated by State of Residence":3791496
+  }
+ },
+ {
    "type": "Feature",
    "geometry": {
       "type": "Point",
@@ -179,51 +224,6 @@
    "Total Doses Administered by State where Administered":5251360,
    "Doses Administered per 100k by State where Administered":166442,
    "People Fully Vaccinated by State of Residence":1967207
-   }
- },
- {
-   "type": "Feature",
-   "geometry": {
-      "type": "Point",
-      "coordinates":  [ -114.742041,44.068202 ]
-   },
-   "properties": {
-   "State/Territory":"Idaho",
-   "Total Doses Distributed":3567590,
-   "Doses Distributed per 100K":199634,
-   "Total Doses Administered by State where Administered":2561404,
-   "Doses Administered per 100k by State where Administered":143330,
-   "People Fully Vaccinated by State of Residence":996428
-   }
- },
- {
-   "type": "Feature",
-   "geometry": {
-      "type": "Point",
-      "coordinates":  [ -89.398528,40.633125 ]
-   },
-   "properties": {
-   "State/Territory":"Illinois",
-   "Total Doses Distributed":28618545,
-   "Doses Distributed per 100K":225844,
-   "Total Doses Administered by State where Administered":23201025,
-   "Doses Administered per 100k by State where Administered":183091,
-   "People Fully Vaccinated by State of Residence":8754366
-   }
- },
- {
-   "type": "Feature",
-   "geometry": {
-      "type": "Point",
-      "coordinates":  [ -85.602364,40.551217 ]
-   },
-   "properties": {
-   "State/Territory":"Indiana",
-   "Total Doses Distributed":14070580,
-   "Doses Distributed per 100K":209004,
-   "Total Doses Administered by State where Administered":10037673,
-   "Doses Administered per 100k by State where Administered":149099,
-   "People Fully Vaccinated by State of Residence":3791496
    }
  },
  {
@@ -272,6 +272,36 @@
    }
  },
  {
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -69.445469,45.253783 ]
+  },
+  "properties": {
+  "State/Territory":"Maine",
+  "Total Doses Distributed":3593850,
+  "Doses Distributed per 100K":267357,
+  "Total Doses Administered by State where Administered":2954541,
+  "Doses Administered per 100k by State where Administered":219797,
+  "People Fully Vaccinated by State of Residence":1079500
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -76.641271,39.045755 ]
+  },
+  "properties": {
+  "State/Territory":"Maryland",
+  "Total Doses Distributed":16628770,
+  "Doses Distributed per 100K":275052,
+  "Total Doses Administered by State where Administered":12481777,
+  "Doses Administered per 100k by State where Administered":206458,
+  "People Fully Vaccinated by State of Residence":4615638
+  }
+ },
+ {
    "type": "Feature",
    "geometry": {
       "type": "Point",
@@ -284,36 +314,6 @@
    "Total Doses Administered by State where Administered":15318285,
    "Doses Administered per 100k by State where Administered":222246,
    "People Fully Vaccinated by State of Residence":5502236
-   }
- },
- {
-   "type": "Feature",
-   "geometry": {
-      "type": "Point",
-      "coordinates":  [ -76.641271,39.045755 ]
-   },
-   "properties": {
-   "State/Territory":"Maryland",
-   "Total Doses Distributed":16628770,
-   "Doses Distributed per 100K":275052,
-   "Total Doses Administered by State where Administered":12481777,
-   "Doses Administered per 100k by State where Administered":206458,
-   "People Fully Vaccinated by State of Residence":4615638
-   }
- },
- {
-   "type": "Feature",
-   "geometry": {
-      "type": "Point",
-      "coordinates":  [ -69.445469,45.253783 ]
-   },
-   "properties": {
-   "State/Territory":"Maine",
-   "Total Doses Distributed":3593850,
-   "Doses Distributed per 100K":267357,
-   "Total Doses Administered by State where Administered":2954541,
-   "Doses Administered per 100k by State where Administered":219797,
-   "People Fully Vaccinated by State of Residence":1079500
    }
  },
  {
@@ -347,6 +347,21 @@
    }
  },
  {
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -89.398528,32.354668 ]
+  },
+  "properties": {
+  "State/Territory":"Mississippi",
+  "Total Doses Distributed":5779715,
+  "Doses Distributed per 100K":194201,
+  "Total Doses Administered by State where Administered":3947999,
+  "Doses Administered per 100k by State where Administered":132655,
+  "People Fully Vaccinated by State of Residence":1553558
+  }
+ },
+ {
    "type": "Feature",
    "geometry": {
       "type": "Point",
@@ -365,21 +380,6 @@
    "type": "Feature",
    "geometry": {
       "type": "Point",
-      "coordinates":  [ -89.398528,32.354668 ]
-   },
-   "properties": {
-   "State/Territory":"Mississippi",
-   "Total Doses Distributed":5779715,
-   "Doses Distributed per 100K":194201,
-   "Total Doses Administered by State where Administered":3947999,
-   "Doses Administered per 100k by State where Administered":132655,
-   "People Fully Vaccinated by State of Residence":1553558
-   }
- },
- {
-   "type": "Feature",
-   "geometry": {
-      "type": "Point",
       "coordinates":  [ -110.362566,46.879682 ]
    },
    "properties": {
@@ -390,6 +390,96 @@
    "Doses Administered per 100k by State where Administered":152424,
    "People Fully Vaccinated by State of Residence":611197
    }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -99.901813,41.492537 ]
+  },
+  "properties": {
+  "State/Territory":"Nebraska",
+  "Total Doses Distributed":4155010,
+  "Doses Distributed per 100K":214795,
+  "Total Doses Administered by State where Administered":3290082,
+  "Doses Administered per 100k by State where Administered":170082,
+  "People Fully Vaccinated by State of Residence":1238135
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -116.419389,38.80261 ]
+  },
+  "properties": {
+  "State/Territory":"Nevada",
+  "Total Doses Distributed":6199210,
+  "Doses Distributed per 100K":201263,
+  "Total Doses Administered by State where Administered":5016725,
+  "Doses Administered per 100k by State where Administered":162872,
+  "People Fully Vaccinated by State of Residence":1889883
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -71.572395,43.193852 ]
+  },
+  "properties": {
+  "State/Territory":"New Hampshire",
+  "Total Doses Distributed":3717200,
+  "Doses Distributed per 100K":273382,
+  "Total Doses Administered by State where Administered":2633073,
+  "Doses Administered per 100k by State where Administered":193649,
+  "People Fully Vaccinated by State of Residence":969705
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -74.405661,40.058324 ]
+  },
+  "properties": {
+  "State/Territory":"New Jersey",
+  "Total Doses Distributed":22999055,
+  "Doses Distributed per 100K":258935,
+  "Total Doses Administered by State where Administered":17666186,
+  "Doses Administered per 100k by State where Administered":198894,
+  "People Fully Vaccinated by State of Residence":6779034
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -105.032363,34.97273 ]
+  },
+  "properties": {
+  "State/Territory":"New Mexico",
+  "Total Doses Distributed":4663645,
+  "Doses Distributed per 100K":222414,
+  "Total Doses Administered by State where Administered":4066113,
+  "Doses Administered per 100k by State where Administered":193917,
+  "People Fully Vaccinated by State of Residence":1506364
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ 74.2179,43.2994 ]
+  },
+  "properties": {
+  "State/Territory":"New York",
+  "Total Doses Distributed":47824655,
+  "Doses Distributed per 100K":245840,
+  "Total Doses Administered by State where Administered":40151915,
+  "Doses Administered per 100k by State where Administered":206399,
+  "People Fully Vaccinated by State of Residence":15105604
+  }
  },
  {
    "type": "Feature",
@@ -419,96 +509,6 @@
    "Total Doses Administered by State where Administered":1126108,
    "Doses Administered per 100k by State where Administered":147771,
    "People Fully Vaccinated by State of Residence":426275
-   }
- },
- {
-   "type": "Feature",
-   "geometry": {
-      "type": "Point",
-      "coordinates":  [ -99.901813,41.492537 ]
-   },
-   "properties": {
-   "State/Territory":"Nebraska",
-   "Total Doses Distributed":4155010,
-   "Doses Distributed per 100K":214795,
-   "Total Doses Administered by State where Administered":3290082,
-   "Doses Administered per 100k by State where Administered":170082,
-   "People Fully Vaccinated by State of Residence":1238135
-   }
- },
- {
-   "type": "Feature",
-   "geometry": {
-      "type": "Point",
-      "coordinates":  [ -71.572395,43.193852 ]
-   },
-   "properties": {
-   "State/Territory":"New Hampshire",
-   "Total Doses Distributed":3717200,
-   "Doses Distributed per 100K":273382,
-   "Total Doses Administered by State where Administered":2633073,
-   "Doses Administered per 100k by State where Administered":193649,
-   "People Fully Vaccinated by State of Residence":969705
-   }
- },
- {
-   "type": "Feature",
-   "geometry": {
-      "type": "Point",
-      "coordinates":  [ -74.405661,40.058324 ]
-   },
-   "properties": {
-   "State/Territory":"New Jersey",
-   "Total Doses Distributed":22999055,
-   "Doses Distributed per 100K":258935,
-   "Total Doses Administered by State where Administered":17666186,
-   "Doses Administered per 100k by State where Administered":198894,
-   "People Fully Vaccinated by State of Residence":6779034
-   }
- },
- {
-   "type": "Feature",
-   "geometry": {
-      "type": "Point",
-      "coordinates":  [ -105.032363,34.97273 ]
-   },
-   "properties": {
-   "State/Territory":"New Mexico",
-   "Total Doses Distributed":4663645,
-   "Doses Distributed per 100K":222414,
-   "Total Doses Administered by State where Administered":4066113,
-   "Doses Administered per 100k by State where Administered":193917,
-   "People Fully Vaccinated by State of Residence":1506364
-   }
- },
- {
-   "type": "Feature",
-   "geometry": {
-      "type": "Point",
-      "coordinates":  [ -116.419389,38.80261 ]
-   },
-   "properties": {
-   "State/Territory":"Nevada",
-   "Total Doses Distributed":6199210,
-   "Doses Distributed per 100K":201263,
-   "Total Doses Administered by State where Administered":5016725,
-   "Doses Administered per 100k by State where Administered":162872,
-   "People Fully Vaccinated by State of Residence":1889883
-   }
- },
- {
-   "type": "Feature",
-   "geometry": {
-      "type": "Point",
-      "coordinates":  [ 74.2179,43.2994 ]
-   },
-   "properties": {
-   "State/Territory":"New York State",
-   "Total Doses Distributed":47824655,
-   "Doses Distributed per 100K":245840,
-   "Total Doses Administered by State where Administered":40151915,
-   "Doses Administered per 100k by State where Administered":206399,
-   "People Fully Vaccinated by State of Residence":15105604
    }
  },
  {
@@ -662,6 +662,21 @@
    }
  },
  {
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -72.577841,44.558803 ]
+  },
+  "properties": {
+  "State/Territory":"Vermont",
+  "Total Doses Distributed":1885890,
+  "Doses Distributed per 100K":302231,
+  "Total Doses Administered by State where Administered":1455554,
+  "Doses Administered per 100k by State where Administered":233266,
+  "People Fully Vaccinated by State of Residence":510684
+  }
+ },
+ {
    "type": "Feature",
    "geometry": {
       "type": "Point",
@@ -680,21 +695,6 @@
    "type": "Feature",
    "geometry": {
       "type": "Point",
-      "coordinates":  [ -72.577841,44.558803 ]
-   },
-   "properties": {
-   "State/Territory":"Vermont",
-   "Total Doses Distributed":1885890,
-   "Doses Distributed per 100K":302231,
-   "Total Doses Administered by State where Administered":1455554,
-   "Doses Administered per 100k by State where Administered":233266,
-   "People Fully Vaccinated by State of Residence":510684
-   }
- },
- {
-   "type": "Feature",
-   "geometry": {
-      "type": "Point",
       "coordinates":  [ -120.740139,47.751074 ]
    },
    "properties": {
@@ -705,6 +705,21 @@
    "Doses Administered per 100k by State where Administered":196177,
    "People Fully Vaccinated by State of Residence":5566022
    }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -80.454903,38.597626 ]
+  },
+  "properties": {
+  "State/Territory":"West Virginia",
+  "Total Doses Distributed":4263545,
+  "Doses Distributed per 100K":237902,
+  "Total Doses Administered by State where Administered":2786266,
+  "Doses Administered per 100k by State where Administered":155471,
+  "People Fully Vaccinated by State of Residence":1039546
+  }
  },
  {
    "type": "Feature",
@@ -719,21 +734,6 @@
    "Total Doses Administered by State where Administered":10591765,
    "Doses Administered per 100k by State where Administered":181913,
    "People Fully Vaccinated by State of Residence":3843762
-   }
- },
- {
-   "type": "Feature",
-   "geometry": {
-      "type": "Point",
-      "coordinates":  [ -80.454903,38.597626 ]
-   },
-   "properties": {
-   "State/Territory":"West Virginia",
-   "Total Doses Distributed":4263545,
-   "Doses Distributed per 100K":237902,
-   "Total Doses Administered by State where Administered":2786266,
-   "Doses Administered per 100k by State where Administered":155471,
-   "People Fully Vaccinated by State of Residence":1039546
    }
  },
  {
