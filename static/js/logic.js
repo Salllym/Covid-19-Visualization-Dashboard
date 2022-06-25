@@ -19,48 +19,6 @@ d3.json("/state_boundaries/geoJSON").then(function (state_data) {
     });
 });
 
-// function createCovidCases(covid_data) {
-//     L.geoJson(data, {
-//         style: styleCovidCases,
-//         onEachFeature: function (feature, layer) {
-//             layer.bindPopup(`<h4>${feature['properties']['State/Territory']}</h4><hr><p>New Cases: ${feature['properties']['New Cases']}</p>
-//                 <p>Cases in Last 7 Days: ${feature['properties']['Cases in Last 7 Days']}</p><p>7-Day Cases Rate per 100000: ${feature['properties']['7-Day Cases Rate per 100000']}</p>
-//                 <p>Total Cases: ${feature['properties']['Total Cases']}</p><p>Case Rate per 100000: ${feature['properties']['Case Rate per 100000']}</p>`, 
-//                 {closeButton: false, offset: L.point(-20, -20)});
-//             layer.on('mouseover', function() {
-//                 layer.openPopup();
-//             });
-//             layer.on('mouseout', function() {
-//                 layer.closePopup();
-//             });
-//             layer.on('click', function(event) {
-//                 map.fitBounds(event.target.getBounds());
-//             });
-//         }
-//     });
-// }
-
-// function createCovidDeaths(covid_data) {
-//     L.geoJson(covid_data, {
-//         style: styleCovidDeaths,
-//         onEachFeature: function (feature, layer) {
-//             layer.bindPopup(`<h4>${feature['properties']['State/Territory']}</h4><hr><p>New Deaths: ${feature['properties']['New Deaths']}</p>
-//                 <p>Deaths in Last 7 Days: ${feature['properties']['Deaths in Last 7 Days']}</p><p>7-Day Death Rate per 100000: ${feature['properties']['7-Day Death Rate per 100000']}</p>
-//                 <p>Total Deaths: ${feature['properties']['Total Deaths']}</p><p>Death Rate per 100000: ${feature['properties']['Death Rate per 100000']}</p>`, 
-//                 {closeButton: false, offset: L.point(-20, -20)});
-//             layer.on('mouseover', function() {
-//                 layer.openPopup();
-//             });
-//             layer.on('mouseout', function() {
-//                 layer.closePopup();
-//             });
-//             layer.on('click', function(event) {
-//                 map.fitBounds(event.target.getBounds());
-//             });
-//         }
-//     });
-// }
-
 function createCovidMap(data) {
     
     var cases = L.geoJson(data, {
@@ -99,6 +57,7 @@ function createCovidMap(data) {
             });
         }
     });
+    
     var overlayMaps = {
         Cases: cases,
         Deaths: deaths
