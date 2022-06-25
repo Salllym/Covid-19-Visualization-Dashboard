@@ -9,7 +9,7 @@ mind can be tricky. Using the Covid Dashboard, users can easily identify which a
 
 To view deployed web appliciation visit:
 
-As users hover over and click on a state in the map, the map zooms in and the following information appears:  
+As users hover over and click on a state in the map, the map zooms in on the state and the following information appears:  
 
 - In terms of covid19 deaths per state, users will be able to see new deaths, deaths last 7 days, deaths in last 7 days/100K, total deaths, and total deaths/100k
 
