@@ -9,15 +9,19 @@ mind can be tricky. Using the Covid Dashboard, users can easily identify which a
 
 To view deployed web appliciation visit:
 
-- In terms of covid19 deaths per state, users will be able to see new deaths, deaths last 7 days, deaths in last 7 days/100K, total deaths, and total deaths/100k.
+As users hover over and click on a state in the map, the map zooms in on the state and the following information appears:  
 
-- For covid19 cases per state, users will be able to see new cases, cases last 7 days, cases in last 7 days/100K, total cases, and total cases/100k.
+- In terms of covid19 deaths per state, users will be able to see new deaths, deaths last 7 days, deaths in last 7 days/100K, total deaths, and total deaths/100k
 
-- In terms of total doses administered per state, users will be able to see total doses administered, total doses adminstered rate (per 100K of total population), and people fully vaccinated.
+- For covid19 cases per state, users will be able to see new cases, cases last 7 days, cases in last 7 days/100K, total cases, and total cases/100k
 
-- For total doses distributed per state, users will be able to see total doses distributed, total doses distributed rate (per 100K of total population), and people fully vaccinated.
+- In terms of total doses administered per state, users will be able to see total doses administered, total doses adminstered rate (per 100K of total population), and people fully vaccinated
 
-In addition, the Covid19 Global Counts of Cases & Deaths is included for users to see how the United States' counts of cases and deaths compare to others globally in general.
+- For total doses distributed per state, users will be able to see total doses distributed, total doses distributed rate (per 100K of total population), and people fully vaccinated
+
+In addition, the Covid-19 Global Counts of Cases & Deaths is included for users to see how the United States' counts of cases and deaths compare to others globally in general.
+
+Also, users can view more Covid-19 data by clicking on the dropdown menu on the right of the navbar named "More Covid-19 Data" which provides links to the CDC Covid-19 Data Tracker and WHO Covid-19 Dashboard websites.
 
 ## Datasets
 [WHO_Covid19_Global_Data](https://covid19.who.int/data)
@@ -51,19 +55,20 @@ WHO_Covid19_Global_Data dataframe:
 
 
 ## Webscraping
-The data in the dashboards in the [covid_cases](https://covid.cdc.gov/covid-data-tracker/#cases_casesper100klast7days) and [covid_vaccine](https://covid.cdc.gov/covid-data-tracker/#vaccinations_vacc-total-admin-rate-total) websites were webscraped and placed into MongoDB. Flask was used to pull the data from MongoDB into the html file for display. 
+The data in the dashboards in the [covid_cases](https://covid.cdc.gov/covid-data-tracker/#cases_casesper100klast7days) and [covid_vaccine](https://covid.cdc.gov/covid-data-tracker/#vaccinations_vacc-total-admin-rate-total) websites were webscraped and placed into MongoDB. Flask was used to pull the data from MongoDB into the index.html file for display. 
 ![dashboard1_data](Images/dashboard1.PNG)
 ![dashboard_data](Images/dashboard.PNG)
 
 
 ## Webpage Development
 1. Name of the site on the left of the nav which allows users to return to the landing page from any page
-2. Descriptive titles
-3. The plots/visualizations
-4. Dropdown menu buttons for users to select which view they want to see on the map  
-5. Button that provides a link to the Global_Covid19_Data page
-6. Responsive (using media queries)
-7. Deployed to GitHub pages
+2. Contains a dropdown menu on the right of the navbar named "More Covid-19 Data" that provides links to the CDC Covid-19 Data Tracker and WHO Covid-19 Dashboard websites.
+3. Descriptive titles
+4. The plots/visualizations
+5. Map control feature for users to select which view they want to see on the maps  
+6. Button that provides a link to the Global_Covid19_Data page
+7. Responsive (using media queries)
+8. Deployed to GitHub pages
 
 
 
@@ -78,7 +83,7 @@ The data in the dashboards in the [covid_cases](https://covid.cdc.gov/covid-data
 3. A legend was created to provide context for the map data
 
 ## Plotly Creation
-3 horizontal bar charts were created showing:
+Chart.js was used to create 3 horizontal bar charts showing:
 - U.S. COVID-19 Vaccine Administration by Vaccine Type
 - U.S. COVID-19 Vaccine Delivered by Vaccine Type
 - Number of People Fully Vaccinated in the U.S. by COVID-19 Vaccine Series Type
