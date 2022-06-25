@@ -39,5 +39,11 @@ def state_geoJSON():
     
     return json_decoded
 
+# Add a new route
+@app.route("/Global_Covid19_Data")
+def Global_Covid19_Data():
+
+    return render_template("Global_Covid19_Data.html")
+
 if __name__ == '__main__':
     app.run(debug=True)

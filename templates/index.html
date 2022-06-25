@@ -20,11 +20,24 @@
   <!-- Navigation Section -->
   <div class="navigation">      
     <nav class="navbar navbar-expand-lg navbar-light">
-      <a class="navbar-brand" href="../templates/index.html">Covid-19 Dashboard</a>            
+      <a class="navbar-brand" href="/">Covid-19 Dashboard</a>            
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
          aria-controls="navbarNavDropdown" aria-expanded="true" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
       </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+               More Covid-19 Data
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="https://covid.cdc.gov/covid-data-tracker/#datatracker-home">CDC Covid-19 Data</a>
+              <a class="dropdown-item" href="https://covid19.who.int/">WHO Covid-19 Data</a>
+            </div>
+          </li>
+        </ul>
+      </div>            
                   
     </nav>  
 
@@ -48,7 +61,7 @@
         </h4>
        
         <div class="button text-left">
-          <p><a class="btn btn-primary btn-small" href="..\Data_Conversion\Global_Covid19_Data.html"
+          <p><a class="btn btn-primary btn-small" href="/Global_Covid19_Data"
               role="button">View Global Covid-19 Data Here</a></p>
         </div>
       </div> 
