@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Covid -19 Overview in United States</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="jumbotron text-center">
+      <h1>Covid-19 Dashboard</h1>
+      <p><a class="btn btn-primary btn-lg" href="/scrape" role="button">Covid-19 Information</a></p>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12">
+        <h2><u>United Staes At a Glance</u></h2>
+      </div>
+    </div>
+  </br>
+    <div class="row">
+      <div class="col-md-12">
+        <h4> Total Covid Cases - {{ dashboard.total_cases }}</h4>
+        <h4> Total New Cases Added - {{dashboard.new_cases}}</h4>
+        <h4> Total New Deaths - {{dashboard.total_deaths}}</h4>
+        <h4> Total New Deaths Added - {{dashboard.new_deaths}}</h4>
+      </div>
+    </div>
+  <hr>
+  <div class="row">
+    <div class="col-md-12">
+      <h2><u>Vaccination Details in United States</u></h2>
+    </div>
+  </div>
+</br>
+  <div class="row">
+    <div class="col-md-12">
+      <h4> Total Doses Distributed - {{dashboard.total_doses_distributed}}</h4>
+      <h4> Total Doses Administered - {{dashboard.total_doses_administered}}</h4>
+      <h4> Number of People Vaccinated - {{dashboard.people_vaccinated_millions}}</h4>
+      <h4> Have taken atleast one dose - {{dashboard.atleast_one_dose}}</h4>
+      <h4> Fully Vaccinated - {{dashboard.fully_vaccinated}}</h4>
+    </div>
+    
+
+      </div>
+  
+</body>
+</html>
