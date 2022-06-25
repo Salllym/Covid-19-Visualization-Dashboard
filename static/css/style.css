@@ -146,6 +146,7 @@ footer {
 .dropdown {
   position: relative;
   display: inline-block;
+  z-index: 2;
 }
 
 /* Dropdown Content (Hidden by Default) */
@@ -176,3 +177,16 @@ footer {
   background-color: white;
 }
 
+html,
+body,
+#map {
+  width: 100%;
+  z-index: 1;
+}
+
+html,
+body,
+#map2 {
+  width: 100%;
+  z-index: 1;
+}
