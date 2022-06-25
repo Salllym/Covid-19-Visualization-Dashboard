@@ -20,6 +20,10 @@ def index():
     return render_template("index.html", dashboard=dashboard_info)
 
 
+@app.route("/")
+def table():
+    return render_template("table.html")
+
 # Route that will trigger the scrape function
 @app.route("/scrape")
 def scrape():
