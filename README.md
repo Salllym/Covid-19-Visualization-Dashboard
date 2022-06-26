@@ -70,6 +70,7 @@ The data in the dashboards in the [covid_cases](https://covid.cdc.gov/covid-data
 7. Responsive (using media queries)
 8. Deployed to GitHub pages
 
+![website](Images/website.PNG)
 
 
 ## Leaflet Plot Creation
@@ -82,8 +83,15 @@ The data in the dashboards in the [covid_cases](https://covid.cdc.gov/covid-data
 2. Popups that provide Covid-19 information were included when the user hovers their mouse over a state
 3. A legend was created to provide context for the map data
 
+![map](Images/map.PNG)
+
 ## Plotly Creation
 Chart.js was used to create 3 horizontal bar charts showing:
 - U.S. COVID-19 Vaccine Administration by Vaccine Type
+![bar1](Images/bar1.PNG)
+
 - U.S. COVID-19 Vaccine Delivered by Vaccine Type
+![bar2](Images/bar2.PNG)
+
 - Number of People Fully Vaccinated in the U.S. by COVID-19 Vaccine Series Type
+![bar3](Images/bar3.PNG)
