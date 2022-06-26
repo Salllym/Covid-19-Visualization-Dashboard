@@ -64,12 +64,12 @@ The data in the dashboards in the [covid_cases](https://covid.cdc.gov/covid-data
 1. Name of the site on the left of the nav which allows users to return to the landing page from any page
 2. Contains a dropdown menu on the right of the navbar named "More Covid-19 Data" that provides links to the CDC Covid-19 Data Tracker and WHO Covid-19 Dashboard websites.
 3. Descriptive titles
-4. The plots/visualizations
-5. Map control feature for users to select which view they want to see on the maps  
+4. Button that scrapes data from CDC website when clicked on 
+5. The plots/visualizations  
 6. Button that provides a link to the Global_Covid19_Data page
 7. Responsive (using media queries)
-8. Deployed to GitHub pages
 
+![website](Images/website.png)
 
 
 ## Leaflet Plot Creation
@@ -78,12 +78,19 @@ The data in the dashboards in the [covid_cases](https://covid.cdc.gov/covid-data
 2. The converted data was used to pull in the data for the visualization.
 
 ### Import and Visualize the Data
-1. A choropleth map using leaflet plots all of the states from the data set based on their longitude and latitude.
+1. A choropleth map using leaflet plots all of the states from the data set based on their longitude and latitude
 2. Popups that provide Covid-19 information were included when the user hovers their mouse over a state
-3. A legend was created to provide context for the map data
+3. Map control feature for users to select which view they want to see on the maps
+4. A legend was created to provide context for the map data
+
+![map](Images/maps.PNG)
 
 ## Plotly Creation
-Chart.js was used to create 3 horizontal bar charts showing:
+Chart.js was used to create horizontal bar charts showing:
 - U.S. COVID-19 Vaccine Administration by Vaccine Type
+![bar1](Images/bar1.PNG)
+
 - U.S. COVID-19 Vaccine Delivered by Vaccine Type
-- Number of People Fully Vaccinated in the U.S. by COVID-19 Vaccine Series Type
+![bar2](Images/bar2.PNG)
+
+

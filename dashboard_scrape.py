@@ -166,11 +166,16 @@ def scrape():
 
     # Storing results for atleast one dose vaccination info in a dictionary
     atleast_one_dose = {
-        "Count": [atleast_one_dose_total, atleast_one_dose_greater_5, atleast_one_dose_greater_12, 
-                atleast_one_dose_greater_18, atleast_one_dose_greater_65],
-        "Percent of US population": [atleast_one_dose_total_percent, atleast_one_dose_greater_5_percent, 
-                                    atleast_one_dose_greater_12_percent, atleast_one_dose_greater_18_percent, 
-                                    atleast_one_dose_greater_65_percent]
+        "atleast_one_dose_total": atleast_one_dose_total, 
+        "atleast_one_dose_greater_5": atleast_one_dose_greater_5, 
+        "atleast_one_dose_greater_12": atleast_one_dose_greater_12 , 
+        "atleast_one_dose_greater_18": atleast_one_dose_greater_18, 
+        "atleast_one_dose_greater_65": atleast_one_dose_greater_65,
+        "Percent taken atleast one dose": atleast_one_dose_total_percent, 
+        "Percent taken _one dose greater 5": atleast_one_dose_greater_5_percent, 
+        "Percent taken _one dose greater 12": atleast_one_dose_greater_12_percent, 
+        "Percent taken _one dose greater 18": atleast_one_dose_greater_18_percent,
+        "Percent taken _one dose greater 65": atleast_one_dose_greater_65_percent
     }
 
     # Pulls appropriate section of HTML
@@ -239,25 +244,32 @@ def scrape():
 
     # Storing results for full vaccination info in a dictionary
     fully_vaccinated = {
-        "Count": [fully_vaccinated_total, fully_vaccinated_greater_5, fully_vaccinated_greater_12, 
-                fully_vaccinated_greater_18, fully_vaccinated_greater_65],
-        "Percent of US population": [fully_vaccinated_total_percent, fully_vaccinated_greater_5_percent, 
-                                    fully_vaccinated_greater_12_percent, fully_vaccinated_greater_18_percent, 
-                                    fully_vaccinated_greater_65_percent]
+        "fully_vaccinated_total": fully_vaccinated_total,
+        "fully_vaccinated_greater_5": fully_vaccinated_greater_5, 
+        "fully_vaccinated_greater_12": fully_vaccinated_greater_12,
+        "fully_vaccinated_greater_18": fully_vaccinated_greater_18,
+        "fully_vaccinated_greater_65": fully_vaccinated_greater_65,
+        "Percent fully_vaccinated": fully_vaccinated_total_percent, 
+        "Percent fully_vaccinated_greater_5": fully_vaccinated_greater_5_percent, 
+        "Percent fully_vaccinated_greater_12": fully_vaccinated_greater_12_percent, 
+        "Percent fully_vaccinated_greater_18": fully_vaccinated_greater_18_percent, 
+        "Percent fully_vaccinated_greater_65": fully_vaccinated_greater_65_percent
     }
 
+
+
     # Set up list to hold all the info scrapped
-    dashboard_info = [
-        total_cases,
-        new_cases,
-        total_deaths,
-        new_deaths,
-        total_doses_distributed,
-        total_doses_administered,
-        people_vaccinated_millions,
-        atleast_one_dose,
-        fully_vaccinated 
-    ]
+    dashboard_info = {
+        "total_cases": total_cases,
+        "new_cases": new_cases,
+        "total_deaths": total_deaths,
+        "new_deaths": new_deaths,
+        "total_doses_distributed": total_doses_distributed,
+        "total_doses_administered": total_doses_administered,
+        "people_vaccinated_millions": people_vaccinated_millions,
+        "atleast_one_dose": atleast_one_dose,
+        "fully_vaccinated": fully_vaccinated 
+    }
 
     # Return the array of info
     return(dashboard_info)
