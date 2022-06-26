@@ -83,7 +83,7 @@ The data in the dashboards in the [covid_cases](https://covid.cdc.gov/covid-data
 2. Popups that provide Covid-19 information were included when the user hovers their mouse over a state
 3. A legend was created to provide context for the map data
 
-![map](Images/map.png)
+![map](Images/maps.PNG)
 
 ## Plotly Creation
 Chart.js was used to create 3 horizontal bar charts showing:
