@@ -58,7 +58,7 @@ function createCovidMap(data) {
         }
     });
     
-    var overlayMaps = {
+    var baseMaps = {
         Cases: cases,
         Deaths: deaths
     };
@@ -74,29 +74,62 @@ function createCovidMap(data) {
         attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
     }).addTo(map);
 
-    L.control.layers(null, overlayMaps, {
+   L.control.layers(baseMaps, null, {
         collapsed: false
     }).addTo(map);
+
+    var casesLegend = L.control({position: 'bottomright'});
+
+    casesLegend.onAdd = function () {
+        
+        var div = L.DomUtil.create('div', 'info legend'),
+            criteria = ["0-125", "125-200", "200-300", ">300"],
+            colors = ["#FED976", "#FD8D3C", "#E31A1C", "#800026"];
+        
+        div.innerHTML = '<h4>Cases per 100,000</h4>'
+        for (var i = 0; i < criteria.length; i++) {
+            div.innerHTML +=
+                '<i style="background:' + colors[i] + '"></i> ' +
+                criteria[i] + '<br>';
+            
+        };
+        return div;
+    };
+
+    var deathsLegend = L.control({position: 'bottomright'});
+
+    deathsLegend.onAdd = function () {
+        
+        var div = L.DomUtil.create('div', 'info legend'),
+            criteria = ["0-0.4", "0.4-0.8", "0.8-1.2", ">1.2"],
+            colors = ["#FED976", "#FD8D3C", "#E31A1C", "#800026"];
+        
+        div.innerHTML = '<h4>Deaths per 100,000</h4>'
+        for (var i = 0; i < criteria.length; i++) {
+            div.innerHTML +=
+                '<i style="background:' + colors[i] + '"></i> ' +
+                criteria[i] + '<br>';
+            
+        };
+        return div;
+    };
+    
+    deathsLegend.addTo(map);
+    var currentLegend = deathsLegend;
+
+    map.on('baselayerchange', function (eventLayer) {
+        if (eventLayer.name === "Cases") {
+            map.removeControl(currentLegend);
+            currentLegend = casesLegend;
+            casesLegend.addTo(map);
+        }
+        else if (eventLayer.name === "Deaths") {
+            map.removeControl(currentLegend);
+            currentLegend = deathsLegend;
+            deathsLegend.addTo(map);
+        }
+    });
 };
-
-// function createVaccineMap(data) {
-//     var map = L.map('map2', {
-//         center: [37.8, -96],
-//         zoom: 4,
-//     });
-
-//     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-//         maxZoom: 19,
-//         attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
-//     }).addTo(map);
-
-//     L.geoJson(data, {
-//         style: styleVaccineAdministered,
-//         onEachFeature: function (feature, layer) {
-//             layer.bindPopup(`<h3>${feature['properties']['State/Territory']}</h3>`);
-//         }
-//     }).addTo(map);
-// };
 
 function createVaccineMap(data) {
     var administered = L.geoJson(data, {
@@ -134,7 +167,7 @@ function createVaccineMap(data) {
         }
     });
     
-    var overlayMaps = {
+    var baseMaps = {
         Administered: administered,
         Distributed: distributed
     };
@@ -150,24 +183,76 @@ function createVaccineMap(data) {
         attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
     }).addTo(map);
 
-    L.control.layers(null, overlayMaps, {
+    L.control.layers(baseMaps, null, {
         collapsed: false
     }).addTo(map);
+
+    var administeredLegend = L.control({position: 'bottomleft'});
+
+    administeredLegend.onAdd = function () {
+        
+        var div = L.DomUtil.create('div', 'info legend'),
+            criteria = ["0-125,000", "125,000-175,000", "175,000-225,000", ">225,000"],
+            colors = ["#FED976", "#FD8D3C", "#E31A1C", "#800026"];
+        
+        div.innerHTML = '<h4>Vaccines Administered per 100,000</h4>'
+        for (var i = 0; i < criteria.length; i++) {
+            div.innerHTML +=
+                '<i style="background:' + colors[i] + '"></i> ' +
+                criteria[i] + '<br>';
+            
+        };
+        return div;
+    };
+
+    var distributedLegend = L.control({position: 'bottomleft'});
+
+    distributedLegend.onAdd = function () {
+        
+        var div = L.DomUtil.create('div', 'info legend'),
+            criteria = ["0-190,000", "190,000-230,000", "230,000-270,000", ">270,000"],
+            colors = ["#FED976", "#FD8D3C", "#E31A1C", "#800026"];
+        
+        div.innerHTML = '<h4>Vaccines Distributed per 100,000</h4>'
+        for (var i = 0; i < criteria.length; i++) {
+            div.innerHTML +=
+                '<i style="background:' + colors[i] + '"></i> ' +
+                criteria[i] + '<br>';
+            
+        };
+        return div;
+    };
+    
+    distributedLegend.addTo(map);
+    var currentLegend = distributedLegend;
+
+    map.on('baselayerchange', function (eventLayer) {
+        if (eventLayer.name === "Administered") {
+            map.removeControl(currentLegend);
+            currentLegend = administeredLegend;
+            administeredLegend.addTo(map);
+        }
+        else if (eventLayer.name === "Distributed") {
+            map.removeControl(currentLegend);
+            currentLegend = distributedLegend;
+            distributedLegend.addTo(map);
+        }
+    });
 };
 
 // Function to decide color for covid map
 function getCovidCasesColor(x) {
-    return x > 450 ? '#800026' :
-           x > 300 ? '#E31A1C' :
-           x > 150 ? '#FD8D3C' :
+    return x > 300 ? '#800026' :
+           x > 200 ? '#E31A1C' :
+           x > 125 ? '#FD8D3C' :
                      '#FED976';
 };
 
 // Function to decide color for covid map
 function getCovidDeathsColor(x) {
-    return x > 1.5 ? '#800026' :
-           x > 1 ? '#E31A1C' :
-           x > 0.5 ? '#FD8D3C' :
+    return x > 1.2 ? '#800026' :
+           x > 0.8 ? '#E31A1C' :
+           x > 0.4 ? '#FD8D3C' :
                      '#FED976';
 };
 
@@ -197,17 +282,17 @@ function styleCovidDeaths(feature) {
 
 // Function to decide color for vaccine map
 function getVaccineAdministeredColor(x) {
-    return x > 200000 ? '#800026' :
-           x > 150000 ? '#E31A1C' :
-           x > 100000 ? '#FD8D3C' :
+    return x > 225000 ? '#800026' :
+           x > 175000 ? '#E31A1C' :
+           x > 125000 ? '#FD8D3C' :
                      '#FED976';
 };
 
 // Function to decide color for vaccine map
 function getVaccineDistributedColor(x) {
-    return x > 250000 ? '#800026' :
-           x > 200000 ? '#E31A1C' :
-           x > 150000 ? '#FD8D3C' :
+    return x > 270000 ? '#800026' :
+           x > 230000 ? '#E31A1C' :
+           x > 190000 ? '#FD8D3C' :
                      '#FED976';
 };
 
@@ -226,7 +311,7 @@ function styleVaccineAdministered(feature) {
 // Function to style the vaccine_map
 function styleVaccineDistributed(feature) {
     return {
-        fillColor: getVaccineDistributedColor(feature['properties']['Doses Administered per 100k by State where Administered']),
+        fillColor: getVaccineDistributedColor(feature['properties']['Doses Distributed per 100K']),
         weight: 2,
         opacity: 1,
         color: 'white',

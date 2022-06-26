@@ -95,26 +95,28 @@
         </div> 
       
       <br>
-      <div class="table-responsive" style="overflow-x: auto; overflow-y: auto; 
+      <!-- <div class="table-responsive" style="overflow-x: auto; overflow-y: auto; 
         max-height: 470px; max-width: auto;">
+      </div> -->
+  
+      <!-- The div that holds the bar charts-->
+      <!-- <div class="chartMenu">
+        <p>Covid 19 Bar Charts</p>
+      </div> -->
+      <!--Chart Section-->
+      <div class="chartCard">
+        <div class="chartBox">
+          <canvas id="Covid_Vaccicne_Delivered_by_type"></canvas>
+        </div>
+        <div class="chartBox">
+          <canvas id="Covid_Vaccine_Admin_by_type"></canvas>
+        </div>
+        <!-- <div class="chartBox">
+          <canvas id="Number_people_vaccinated_us"></canvas>
+        </div> -->
       </div>
   </div>
- <!-- The div that holds the bar charts-->
-  <div class="chartMenu">
-    <p>Covid 19 Bar Charts</p>
-  </div>
-  <div class="chartCard">
-    <div class="chartBox">
-      <canvas id="Covid_Vaccicne_Devlivered_by_type"></canvas>
-    </div>
-    <div class="chartBox">
-      <canvas id="Covid_Vaccine_Admin_by_type"></canvas>
-    </div>
-    <div class="chartBox">
-      <canvas id="Number_people_vaccinated_us"></canvas>
-    </div>
-  </div>
- 
+
   <div class="container">
 
 
@@ -140,12 +142,13 @@
   <script type="text/javascript" src="static/js/logic.js"></script>
 <!-- chart.js script/data -->
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
 <script>
   // setup 
   const delivered_vaccine_data = {
     labels: ['Pfizer-BioNTech', 'Moderna', 'J&J/Janssen', 'Other'],
     datasets: [{
-      label: 'Devlivered Vaccines by Type',
+      label: 'Delivered Vaccines by Type',
       data: [445134235, 282063620, 282063620, 0],
       backgroundColor: [
         'rgba(255, 26, 104, 0.2)',
@@ -171,7 +174,7 @@
   const administrated_vaccine_data = {
     labels: ['Pfizer-BioNTech', 'Moderna', 'J&J/Janssen', 'Other'],
     datasets: [{
-      label: 'Administrated Vaccines by Type',
+      label: 'Administered Vaccines by Type',
       data: [349460399, 223409934, 18811735, 587184],
       backgroundColor: [
         'rgba(255, 26, 104, 0.2)',
@@ -249,11 +252,11 @@
         responsive: true,
         plugins:{
             legend: {
-                position: 'right'
+              display: false
             },
             title: {
               display: true,  
-              text: 'Delivered Vaccines'
+              text: 'U.S. COVID-19 Vaccine Administration by Vaccine Type'
             }
         }
 
@@ -273,7 +276,7 @@
             x:{
                 title: {
                     display: true,
-                    text: 'Amount Administarted'
+                    text: 'Amount Administered'
                 }
             }
         },
@@ -286,11 +289,11 @@
         responsive: true,
         plugins:{
             legend: {
-                position: 'right'
+              display: false
             },
             title: {
               display: true,  
-              text: 'Administrated Vaccines'
+              text: 'U.S. COVID-19 Vaccine Delivered by Vaccine Type'
             }
         }
 
@@ -336,8 +339,8 @@
   };
 
   // render first block
-  const Covid_Vaccicne_Devlivered_by_type = new Chart(
-    document.getElementById('Covid_Vaccicne_Devlivered_by_type'),
+  const Covid_Vaccicne_Delivered_by_type = new Chart(
+    document.getElementById('Covid_Vaccicne_Delivered_by_type'),
     config
   );
   //render second block
