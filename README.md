@@ -86,12 +86,11 @@ The data in the dashboards in the [covid_cases](https://covid.cdc.gov/covid-data
 ![map](Images/maps.PNG)
 
 ## Plotly Creation
-Chart.js was used to create 3 horizontal bar charts showing:
+Chart.js was used to create horizontal bar charts showing:
 - U.S. COVID-19 Vaccine Administration by Vaccine Type
 ![bar1](Images/bar1.PNG)
 
 - U.S. COVID-19 Vaccine Delivered by Vaccine Type
 ![bar2](Images/bar2.PNG)
 
-- Number of People Fully Vaccinated in the U.S. by COVID-19 Vaccine Series Type
-![bar3](Images/bar3.PNG)
+
