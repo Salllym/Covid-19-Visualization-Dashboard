@@ -68,7 +68,6 @@ The data in the dashboards in the [covid_cases](https://covid.cdc.gov/covid-data
 5. Map control feature for users to select which view they want to see on the maps  
 6. Button that provides a link to the Global_Covid19_Data page
 7. Responsive (using media queries)
-8. Deployed to GitHub pages
 
 ![website](Images/website.png)
 
