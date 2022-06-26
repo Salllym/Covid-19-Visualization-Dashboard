@@ -94,26 +94,45 @@
         </div> 
       
       <br>
-      <!-- <div class="table-responsive" style="overflow-x: auto; overflow-y: auto; 
-        max-height: 470px; max-width: auto;">
-      </div> -->
-  
-      <!-- The div that holds the bar charts-->
-      <!-- <div class="chartMenu">
-        <p>Covid 19 Bar Charts</p>
-      </div> -->
-      <!--Chart Section-->
-      <div class="chartCard">
-        <div class="chartBox">
-          <canvas id="Covid_Vaccicne_Delivered_by_type"></canvas>
-        </div>
-        <div class="chartBox">
-          <canvas id="Covid_Vaccine_Admin_by_type"></canvas>
-        </div>
-        <!-- <div class="chartBox">
-          <canvas id="Number_people_vaccinated_us"></canvas>
-        </div> -->
+
+  <!-- The div that holds the bar charts-->
+  <!-- <div class="chartMenu"> -->
+
+    <!--Chart Section-->
+      <div class="container" style="padding-bottom: 40px;">
+        <div class="row" >
+          <div class="col-md-6 col-sm-12" style="padding: 30px;">
+            <div class="title">Vaccine Administered</div>
+              <div class="chartCard">
+                <div class="chartBox">
+                  <canvas id="Covid_Vaccine_Admin_by_type"></canvas>
+                </div>  
+              </div>
+            </div>
+          </div> 
+
+          <div class="col-md-6 col-sm-12" style="padding: 30px;">
+            <div class="title">Vaccine Delivered</div>
+              <div class="chartCard">
+                <div class="chartBox">
+                  <canvas id="Covid_Vaccicne_Delivered_by_type"></canvas>
+                </div>  
+              </div>
+            </div>
+          </div> 
+
+          <div class="col-md-6 col-sm-12" style="padding: 30px;">
+            <div class="title">Amount of People Vaccinated</div>
+              <div class="chartCard">
+                <div class="chartBox">
+                  <canvas id="Number_people_vaccinated_us"></canvas>
+                </div>  
+              </div>
+            </div>
+          </div> 
       </div>
+
+
   </div>
 
   <div class="container">
@@ -326,7 +345,7 @@
         responsive: true,
         plugins:{
             legend: {
-                position: 'right'
+                display: false
             },
             title: {
               display: true,  
