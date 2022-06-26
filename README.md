@@ -65,10 +65,9 @@ The data in the dashboards in the [covid_cases](https://covid.cdc.gov/covid-data
 2. Contains a dropdown menu on the right of the navbar named "More Covid-19 Data" that provides links to the CDC Covid-19 Data Tracker and WHO Covid-19 Dashboard websites.
 3. Descriptive titles
 4. Button that scrapes data from CDC website when clicked on 
-5. The plots/visualizations
-6. Map control feature for users to select which view they want to see on the maps  
-7. Button that provides a link to the Global_Covid19_Data page
-8. Responsive (using media queries)
+5. The plots/visualizations  
+6. Button that provides a link to the Global_Covid19_Data page
+7. Responsive (using media queries)
 
 ![website](Images/website.png)
 
@@ -79,9 +78,10 @@ The data in the dashboards in the [covid_cases](https://covid.cdc.gov/covid-data
 2. The converted data was used to pull in the data for the visualization.
 
 ### Import and Visualize the Data
-1. A choropleth map using leaflet plots all of the states from the data set based on their longitude and latitude.
+1. A choropleth map using leaflet plots all of the states from the data set based on their longitude and latitude
 2. Popups that provide Covid-19 information were included when the user hovers their mouse over a state
-3. A legend was created to provide context for the map data
+3. Map control feature for users to select which view they want to see on the maps
+4. A legend was created to provide context for the map data
 
 ![map](Images/maps.PNG)
 
