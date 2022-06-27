@@ -1,4 +1,4 @@
-# Road Tripping Across the United States & Covid-19
+# Road Tripping Across the United States
 
 Group 6 Members: Sally Mei, Debolina Bhaumik, Cole Barnes, Kanu Madhok
 
