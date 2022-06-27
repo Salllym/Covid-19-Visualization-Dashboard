@@ -171,11 +171,11 @@ def scrape():
         "atleast_one_dose_greater_12": atleast_one_dose_greater_12 , 
         "atleast_one_dose_greater_18": atleast_one_dose_greater_18, 
         "atleast_one_dose_greater_65": atleast_one_dose_greater_65,
-        "Percent taken atleast one dose": atleast_one_dose_total_percent, 
-        "Percent taken _one dose greater 5": atleast_one_dose_greater_5_percent, 
-        "Percent taken _one dose greater 12": atleast_one_dose_greater_12_percent, 
-        "Percent taken _one dose greater 18": atleast_one_dose_greater_18_percent,
-        "Percent taken _one dose greater 65": atleast_one_dose_greater_65_percent
+        "atleast_one_dose_total_percent": atleast_one_dose_total_percent, 
+        "atleast_one_dose_greater_5_percent": atleast_one_dose_greater_5_percent, 
+        "atleast_one_dose_greater_12_percent": atleast_one_dose_greater_12_percent, 
+        "atleast_one_dose_greater_18_percent": atleast_one_dose_greater_18_percent,
+        "atleast_one_dose_greater_65_percent": atleast_one_dose_greater_65_percent
     }
 
     # Pulls appropriate section of HTML
@@ -249,11 +249,11 @@ def scrape():
         "fully_vaccinated_greater_12": fully_vaccinated_greater_12,
         "fully_vaccinated_greater_18": fully_vaccinated_greater_18,
         "fully_vaccinated_greater_65": fully_vaccinated_greater_65,
-        "Percent fully_vaccinated": fully_vaccinated_total_percent, 
-        "Percent fully_vaccinated_greater_5": fully_vaccinated_greater_5_percent, 
-        "Percent fully_vaccinated_greater_12": fully_vaccinated_greater_12_percent, 
-        "Percent fully_vaccinated_greater_18": fully_vaccinated_greater_18_percent, 
-        "Percent fully_vaccinated_greater_65": fully_vaccinated_greater_65_percent
+        "fully_vaccinated_total_percent": fully_vaccinated_total_percent, 
+        "fully_vaccinated_greater_5_percent": fully_vaccinated_greater_5_percent, 
+        "fully_vaccinated_greater_12_percent": fully_vaccinated_greater_12_percent, 
+        "fully_vaccinated_greater_18_percent": fully_vaccinated_greater_18_percent, 
+        "fully_vaccinated_greater_65_percent": fully_vaccinated_greater_65_percent
     }
 
 
