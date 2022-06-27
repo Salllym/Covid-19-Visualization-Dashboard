@@ -52,26 +52,30 @@
   <!-- Content Section-->
   <div class="container">
 
-    <div class="jumbotron text-center">
-      <h1>Covid-19 in the United States</h1>
-      <p><a class="btn btn-primary btn-lg" href="/scrape" role="button">Covid-19 Information</a></p>
-    </div>
+    <!-- <div class="jumbotron text-center"> -->
+      <!-- <h1>Covid-19 in the United States</h1> -->
+      <!-- <p><a class="btn btn-primary btn-lg" href="/scrape" role="button">Covid-19 Information</a></p> -->
+    <!-- </div> -->
 
-
-  
     <div class="box">
       <h3 class="title">  Covid-19 Cases & Deaths in the United States
       </h3> 
-        <!-- <div class="dropdown">
-          <button onclick="myFunction(1)" class="dropbtn">View</button>
-          <div id="myDropdown1" class="dropdown-content">
-            <a href="Cases.html">Cases</a>
-            <a href="Deaths.html">Deaths</a>
-          </div>
-        </div> -->
+      <p><a class="btn btn-primary btn-lg" href="/scrape" role="button">Covid-19 Information</a></p>
+      <div class="row">
+        <div class="col-md-12">
+          <h4> Total Covid Cases: {{ dashboard.total_cases }}</h4>
+          <h4> New Cases Added: {{dashboard.new_cases}}</h4>
+          <h4> Total Deaths: {{dashboard.total_deaths}}</h4>
+          <h4> New Deaths Added: {{dashboard.new_deaths}}</h4>
+        </div>
+      </div>
       <hr>
       <!-- The div that holds our map -->
-      <div id="map" style="height: 600px"></div> 
+      <div class="row">
+        <div class="col-md-12">
+          <div id="map" style="height: 600px"></div>
+        </div>
+      </div> 
     </div>
 
 
@@ -90,16 +94,103 @@
         <div class="box">
           <h4 class="title">Covid-19 Vaccinations in the United States
           </h4>  
-          <!-- <div class="dropdown">
-            <button onclick="myFunction(2)" class="dropbtn">Views</button>
-            <div id="myDropdown2" class="dropdown-content">
-              <a href="Vaccine-Administered.html">Total Doses Administered</a>
-              <a href="Vaccine-Distributed.html">Total Doses Distributed</a>
+          <div class="row">
+            <div class="col-md-12">
+              <h4> Total Doses Distributed: {{dashboard.total_doses_distributed}}</h4>
+              <h4> Total Doses Administered: {{dashboard.total_doses_administered}}</h4>
+              <h4> Number of People Vaccinated: {{dashboard.people_vaccinated_millions}}</h4>
+              <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <th>Atleast One Vaccine Dose</th>
+                    <th></th>
+                    <th></th>
+                  </tr>
+                  <tr>
+                    <th>Group of People</th>
+                    <th>Count</th>
+                    <th>Percent of US Population</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Total</td>
+                    <td>{{dashboard.atleast_one_dose.atleast_one_dose_total}}</td>
+                    <td>{{dashboard.atleast_one_dose.atleast_one_dose_total_percent}}</td>
+                  </tr>
+                  <tr>
+                    <td>Population >= 5 Years of Age</td>
+                    <td>{{dashboard.atleast_one_dose.atleast_one_dose_greater_5}}</td>
+                    <td>{{dashboard.atleast_one_dose.atleast_one_dose_greater_5_percent}}</td>
+                  </tr>
+                  <tr>
+                    <td>Population >= 12 Years of Age</td>
+                    <td>{{dashboard.atleast_one_dose.atleast_one_dose_greater_12}}</td>
+                    <td>{{dashboard.atleast_one_dose.atleast_one_dose_greater_12_percent}}</td>
+                  </tr>
+                  <tr>
+                    <td>Population >= 18 Years of Age</td>
+                    <td>{{dashboard.atleast_one_dose.atleast_one_dose_greater_18}}</td>
+                    <td>{{dashboard.atleast_one_dose.atleast_one_dose_greater_18_percent}}</td>
+                  </tr>
+                  <tr>
+                    <td>Population >= 65 Years of Age</td>
+                    <td>{{dashboard.atleast_one_dose.atleast_one_dose_greater_65}}</td>
+                    <td>{{dashboard.atleast_one_dose.atleast_one_dose_greater_65_percent}}</td>
+                  </tr>
+                </tbody>
+              </table>
+              <br>
+              <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <th>Fully Vaccinated</th>
+                    <th></th>
+                    <th></th>
+                  </tr>
+                  <tr>
+                    <th>Group of People</th>
+                    <th>Count</th>
+                    <th>Percent of US Population</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Total</td>
+                    <td>{{dashboard.fully_vaccinated.fully_vaccinated_total}}</td>
+                    <td>{{dashboard.fully_vaccinated.fully_vaccinated_total_percent}}</td>
+                  </tr>
+                  <tr>
+                    <td>Population >= 5 Years of Age</td>
+                    <td>{{dashboard.fully_vaccinated.fully_vaccinated_greater_5}}</td>
+                    <td>{{dashboard.fully_vaccinated.fully_vaccinated_greater_5_percent}}</td>
+                  </tr>
+                  <tr>
+                    <td>Population >= 12 Years of Age</td>
+                    <td>{{dashboard.fully_vaccinated.fully_vaccinated_greater_12}}</td>
+                    <td>{{dashboard.fully_vaccinated.fully_vaccinated_greater_12_percent}}</td>
+                  </tr>
+                  <tr>
+                    <td>Population >= 18 Years of Age</td>
+                    <td>{{dashboard.fully_vaccinated.fully_vaccinated_greater_18}}</td>
+                    <td>{{dashboard.fully_vaccinated.fully_vaccinated_greater_18_percent}}</td>
+                  </tr>
+                  <tr>
+                    <td>Population >= 65 Years of Age</td>
+                    <td>{{dashboard.fully_vaccinated.fully_vaccinated_greater_65}}</td>
+                    <td>{{dashboard.fully_vaccinated.fully_vaccinated_greater_65_percent}}</td>
+                  </tr>
+                </tbody>
+              </table>
             </div>
-          </div>  -->
+          </div>
           <hr>
-          <!-- The div that holds our map -->
-          <div id="map2" style="height: 600px"></div> 
+          <div class="row">
+            <div class="col-md-12">
+              <!-- The div that holds our map -->
+              <div id="map2" style="height: 600px"></div> 
+            </div>
+          </div>
         </div> 
       
       <br>
