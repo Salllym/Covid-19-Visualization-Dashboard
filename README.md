@@ -93,4 +93,6 @@ Chart.js was used to create horizontal bar charts showing:
 - U.S. COVID-19 Vaccine Delivered by Vaccine Type
 ![bar2](Images/bar2.PNG)
 
+## Conclusion
+This webpage provides overall information regarding Covid -19 for the last 7 days in the United States. People can easily find information about cases and deaths as well as new cases for every state through the map. In addition, vaccination details as a whole, as well as vaccine types, are provided, state to state to make the road trip safe and enjoyable.
 
