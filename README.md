@@ -69,7 +69,7 @@ The data in the dashboards in the [covid_cases](https://covid.cdc.gov/covid-data
 6. Button that provides a link to the Global_Covid19_Data page
 7. Responsive (using media queries)
 
-![website](Images/website.png)
+![webpage](Images/webpage.png)
 
 
 ## Leaflet Plot Creation
