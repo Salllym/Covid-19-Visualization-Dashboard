@@ -7,7 +7,7 @@ Group 6 Members: Sally Mei, Debolina Bhaumik, Cole Barnes, Kanu Madhok
 Summer vacation time is here, but covid is still around. Trying to plan a road trip across the United States while keeping everyone’s health in 
 mind can be tricky. Using the Covid Dashboard, users can easily identify which areas to avoid. 
 
-To view deployed web appliciation visit:
+
 
 As users hover over and click on a state in the map, the map zooms in on the state and the following information appears:  
 
